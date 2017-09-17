@@ -1,6 +1,6 @@
 ﻿<#
  .Synopsis
-  Wochentagausgabe
+  Übung Nr. 4 - Wochentagausgabe
  #>
 
  $Wochentag = @{

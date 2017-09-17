@@ -1,4 +1,5 @@
-﻿
+﻿# Übung Nr. 2
+
 function Get-StorageCost
 {
     <#
