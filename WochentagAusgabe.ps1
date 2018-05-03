@@ -5,7 +5,7 @@
 
  $Wochentag = @{
     n="Wochentag"
-    e= { "Montag" }
+    e= { $_.CreationTime.DayOfWeek }
  }
 
  dir -Path C:\Windows | Select-Object Name, CreationTime, $Wochentag
