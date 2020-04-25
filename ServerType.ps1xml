@@ -1,0 +1,13 @@
+<Types>
+    <Type>
+        <Name>Server</Name>
+        <Members>
+            <ScriptProperty>
+                <Name>Laufzeit</Name>
+                <GetScriptBlock>
+                     ((Get-Date)-$this.Startzeit).TotalSeconds
+                </GetScriptBlock>
+            </ScriptProperty>
+        </Members>
+    </Type>
+</Types>
