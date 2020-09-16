@@ -1,0 +1,4 @@
+Computername,Status,LastBoot,Filliale
+PC11,OK,01.09.2020 10:00,1000
+PC22,Error,02.09.2020 12:00,1001
+PC33,Undefined,03.09.2020 09:00,1002

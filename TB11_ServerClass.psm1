@@ -5,6 +5,7 @@
 
 enum ServerStatus
 {
+    Uninitialized
     Running
     Stopped
 }
@@ -19,6 +20,8 @@ class Server
     Server([String]$Name)
     {
         $this.Name = $Name
+        $this.Status = "Uninitialized"
         $this.Startzeit = Get-Date
     }
 }
+

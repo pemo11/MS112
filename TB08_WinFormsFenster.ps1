@@ -6,6 +6,8 @@
 using namespace System.Windows.Forms
 using namespace System.Drawing
 
+Add-Type -AssemblyName System.Windows.Forms
+
 function New-Window
 {
     [Cmdletbinding()]

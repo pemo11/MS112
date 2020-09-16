@@ -10,7 +10,7 @@ function New-AzADUser
 {
     [CmdletBinding()]
     param([String]$Username)
-    throw "!!!Noch nicht fertigestellt!!!"
+    throw "!!! Noch nicht fertigestellt !!!"
     Write-Verbose "*** AzureAD-Account für $Username wurde angelegt ***"
 }
 describe "Create AD-Users" -Fixture {

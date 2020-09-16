@@ -10,3 +10,4 @@ $AssTypen.Where{$_.IsClass -and $_.IsPublic} | Sort-Object -Property Name | Sele
 
 # Klassennamen, die mit Dialog enden
 $AssTypen.Where{$_.IsClass -and $_.IsPublic} | Where-Object Name -like "*Dialog" | Sort-Object -Property Name | Select-Object Name,Namespace
+
