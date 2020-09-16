@@ -8,13 +8,14 @@ while ($true)
 {
     if ([Console]::KeyAvailable)
     {
-        if ([Console]::ReadKey($true).KeyChar -eq "q")
+        $k = [Console]::ReadKey($true)
+        if ($k.KeyChar -eq "q")
         {
             break;
-        }
+        }q
     } 
     "Abbruch per 'Q'-Taste..."
      Start-Sleep -Seconds 1
 }
 
-"Abbruch nach {0:n}s" -f ((Get-Date)-$Startzeit).TotalSeconds
+"Abbruch nach {0:n2}s" -f ((Get-Date)-$Startzeit).TotalSeconds

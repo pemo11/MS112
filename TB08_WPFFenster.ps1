@@ -49,7 +49,7 @@ $XAML = @'
 $ButtonClickSB = {
     [MessageBox]::Show("Vielen Dank!")
     $ComputerName = $TextBox.Text
-    $Dienste = Invoke-Command { Get-Service} -ComputerName $ComputerName
+    $Dienste = Invoke-Command { Get-Service} # -ComputerName $ComputerName
     $ListBox.ItemsSource = $Dienste
 }
 
@@ -58,4 +58,5 @@ $Button = $MainWin.FindName("StartButton")
 $TextBox = $MainWin.FindName("ComputerNameTextBox")
 $ListBox = $MainWin.FindName("DiensteLisBox")
 $Button.add_Click($ButtonClickSB)
+# Blockierende Anzeige des Dialogfensters
 $MainWin.ShowDialog()
