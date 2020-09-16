@@ -16,6 +16,7 @@ $Subsystem = $configData.Subsystem
 $Hostname = $configData.Hostname
 $Username = $configData.Username
 
+# Kennwort-Eingabe jedes Mal erforderlich - die Alternative wäre Public Key Authentifizierung
 $S1 = New-PSSession -Hostname $Hostname -Username $Username -SSHTransport -Subsystem $Subsystem
 
 # Auflisten aller Prozesse auf dem Host-Computer (z.B. Ubuntu Linux mit installierter PowerShell 7.0 und aktiviertem SSH)
