@@ -1,0 +1,65 @@
+Manufacturer;Name;CreateDate
+Intel;Xeon;2014-11-17
+Intel;Celeron D;2014-11-17
+Intel;Celeron M;2014-11-17
+Intel;Celeron;2014-11-17
+Intel;Celeron Mobile;2014-11-17
+Intel;Core Duo;2014-11-17
+Intel;Core Solo;2014-11-17
+Intel;Core 2 Duo;2014-11-17
+Intel;Pentium 4-M;2014-11-17
+Intel;Pentium 4;2014-11-17
+Intel;Pentium III;2014-11-17
+Intel;Pentium III Xeon;2014-11-17
+Intel;Pentium M;2014-11-17
+Intel;Pentium;2014-11-17
+Intel;Itanium 2;2014-11-17
+Intel;Core 2 Extreme;2014-11-17
+Intel;Core 2 Solo;2014-11-17
+Intel;Atom;2014-11-17
+Intel;Core 2 Quad;2014-11-17
+Intel;Core i7;2014-11-17
+Intel;Itanium;2014-11-17
+Intel;Core i5;2014-11-17
+Intel;Core i7 Extreme;2014-11-17
+Intel;Core i3;2014-11-17
+Intel;Pentium II Mobile;2014-11-17
+Intel;80386;2014-11-17
+Intel;80486;2014-11-17
+AMD;Athlon;2014-11-17
+AMD;Athlon 64;2014-11-17
+AMD;FX;2014-11-17
+AMD;Athlon 64 X2;2014-11-17
+AMD;Athlon II;2014-11-17
+AMD;Athlon MP;2014-11-17
+AMD;Athlon X2;2014-11-17
+AMD;Athlon XP;2014-11-17
+AMD;K5;2014-11-17
+AMD;K6;2014-11-17
+AMD;K6-2;2014-11-17
+AMD;K6-III;2014-11-17
+AMD;Opteron;2014-11-17
+AMD;Phenom II;2014-11-17
+AMD;Phenom;2014-11-17
+AMD;Turion 64;2014-11-17
+AMD;Turion 64 X2;2014-11-17
+AMD;Broadcom;2014-11-17
+AMD;Cypress;2014-11-17
+AMD;486DX;2014-11-17
+AMD;486SLC;2014-11-17
+AMD;5x86;2014-11-17
+AMD;6x86;2014-11-17
+AMD;Cyrix III;2014-11-17
+Intel;Core 2 Quad Extreme;2014-11-17
+Intel;Pentium 4 EE;2014-11-17
+Intel;Pentium D;2014-11-17
+Intel;Pentium EE;2014-11-17
+Intel;Pentium II;2014-11-17
+Intel;Pentium MMX;2014-11-17
+Intel;Pentium Pro;2014-11-17
+Intel;Core;2014-11-17
+Intel;Core2;2014-11-17
+Intel;Pentium III Mobile;2014-11-17
+AMD;Ryzen 9 3900X;2019-07-07
+AMD;Ryzen 9 5950X;2020-11-05
+AMD;Ryzen 7 5800X;2020-11-05
