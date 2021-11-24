@@ -5,6 +5,8 @@
  Schritt 13: Alle "bewegenlichen" Daten in eine Config-Datei ausgelagert
 #>
 
+Set-StrictMode -Version Latest
+
 <#
  .Synopsis
  Abfrage aller CPU-Daten
@@ -57,7 +59,6 @@ function Get-CPUInfo
  
 }
 
-Get-CPUInfo -Computername "PowerPc", "PowerPc" -Verbose
+Get-CPUInfo -Computername "ServerDC", "ServerB" -Verbose
 
 
-"Localhost", "Localhost" | Get-CPUInfo -Verbose

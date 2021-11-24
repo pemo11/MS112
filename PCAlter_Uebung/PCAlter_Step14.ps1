@@ -57,7 +57,6 @@ function Get-CPUInfo
  
 }
 
-Get-CPUInfo -Computername "PowerPc", "PowerPc" -Verbose
+Get-CPUInfo -Computername "ServerB", "ServerDC" -Verbose
 
 
-"Localhost", "Localhost" | Get-CPUInfo -Verbose

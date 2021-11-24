@@ -20,7 +20,8 @@ Get-Process -PipelineVariable p | Select-Object StartTime -First 3 | ForEach-Obj
 # Verzeichnisse ausgeben, auf die ein Benutzerkonto Vollzugriff besitzt,
 # das kein Admin ist
 Get-ChildItem -Path C:\ -ErrorAction Ignore -Directory -PipelineVariable dir |
-  Get-ACL | Select-Object -ExpandProperty Access |
+  Get-ACL -ErrorAction Ignore | Select-Object -ExpandProperty Access |
   Where-Object { $_.FileSystemRights -eq "FullControl" -and  `
    $_.IdentityReference -notmatch "Administrator"} | 
-    Select-Object -Property @{n="Benutzerkonto";e={$_.IdentityReference}}, @{n="Verzeichnis";e={$dir.FullName } }
+    Select-Object -Property @{name="Benutzerkonto";expression={$_.IdentityReference}}, 
+     @{n="Verzeichnis";e={$dir.FullName } }
