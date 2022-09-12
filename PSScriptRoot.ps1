@@ -4,4 +4,4 @@
 #>
 
 "PSScriptRoot = $PSScriptRoot"
-Write-Host "PSScriptRoot = $PSScriptRoot" 6> D:\temp\Output2.txt
+Write-Host "PSScriptRoot = $PSScriptRoot" 6> C:\Windows\temp\Output2.txt
