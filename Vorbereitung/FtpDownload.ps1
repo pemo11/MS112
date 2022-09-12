@@ -6,6 +6,7 @@
 $FtpServer = "ftp://wp12146773.server-he.de"
 $FileName = "posh/MS112.zip"
 $FtpUsername = "ftp12146773-pskurs"
+# Passwort im Klartext-Alarm - in diesem Fall aber nicht tragisch (denke ich)
 $FtpPassword = "posh2021"
 
 $Cred = [PSCredential]::New($FtpUsername, ($FtpPassword | ConvertTo-SecureString -AsPlainText -Force))
