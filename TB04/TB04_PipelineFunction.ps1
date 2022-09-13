@@ -2,6 +2,7 @@
  .Synopsis
  Beispiel für eine Pipeline-Function
 #>
+
 enum ServerMode
 {
     Running
