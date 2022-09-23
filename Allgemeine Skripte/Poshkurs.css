@@ -1,0 +1,10 @@
+body {
+    width:80%;
+    background-color: aliceblue;
+    font-family: verdana;
+    font-size: 12pt;
+}
+
+div {
+    margin-top: 20px;
+}

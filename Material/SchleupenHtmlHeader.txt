@@ -1,0 +1,8 @@
+$Header = @"
+<style>
+TABLE {border-width: 1px; border-style: solid; border-color: black; border-collapse: collapse;}
+TH {border-width: 1px; padding: 3px; border-style: solid; color: #22c0c2; border-color: #22c0c2; background-color: #00386e;}
+TD {border-width: 2px; padding: 3px; border-style: solid; border-color: #22c0c2; white-space:pre-line}
+H11 {color: #25e712;} H12 {color: #006400;} H13 {color: #ff8c00;} H14 {color: #8b0000;}
+</style>
+"@
