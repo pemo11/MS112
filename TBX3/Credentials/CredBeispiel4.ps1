@@ -3,7 +3,7 @@
  Start einer Anwendung mit anderen Credentials
  .NOTES
  Credential-Eingabe per [PSCredential]::new() mit Kennwort als Klartext
- Es gibt zwei User: psuser und psadmin als Administrator mit demo+1234/demo+123 als Kennwort
+ Es gibt zwei User: psuser und psadmin als Administrator mit demo+123 als Kennwort
 #>
 
 $AppName = "powershell.exe"

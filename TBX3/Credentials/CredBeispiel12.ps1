@@ -10,5 +10,5 @@ Get-SecretInfo
 Get-SecretVault
 
 Get-SecretVault | ForEach-Object {
-    Test-SecretVault -Vault $_.Name
+    Test-SecretVault -Name $_.Name
 }

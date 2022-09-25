@@ -13,5 +13,5 @@ $AppArgs = "-noprofile -noexit -c Get-Process | Where-Object WS -gt 100MB | Sele
 # Abrufen des PSCredentials
 $PSCred = Get-Secret -Name AppStart
 
-# Start einer Anwendung mit anderen Credentials (aber ohne Administrator-Berechtigung!)
+# Start einer Anwendung mit anderen Credentials
 Start-Process -FilePath $Appname -ArgumentList $AppArgs -Credential $PSCred

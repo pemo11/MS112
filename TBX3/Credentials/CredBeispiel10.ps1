@@ -10,7 +10,7 @@
 $PwSec = Read-Host -Prompt "Kennwort?" -AsSecureString
 $PSCred = [PSCredential]::new("psadmin", $PWSec)
 
-Set-Secret -Name AppStart -Secret $PSCred -Vault BuiltInLocalVault
+Set-Secret -Name AppStart -Secret $PSCred -Vault TestVault
 
 # Schritt 3: Secret abrufen
 Get-Secret -Name AppStart

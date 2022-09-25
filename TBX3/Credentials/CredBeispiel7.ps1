@@ -17,5 +17,8 @@ $CredPath = Join-Path -Path $PSScriptRoot -ChildPath "PSCred.xml"
 
 $PSCred = Import-CliXml -Path $CredPath
 
-# Start einer Anwendung mit anderen Credentials (aber ohne Administrator-Berechtigung!)
+# Kennwort spielt bei Start-Process offenbar keine Rolle?
+# $PSCred = [PSCredential]::new("psadmin", $Null)
+
+# Start einer Anwendung mit anderen Credentials
 Start-Process -FilePath $Appname -ArgumentList $AppArgs -Credential $PSCred

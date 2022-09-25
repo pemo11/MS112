@@ -3,7 +3,7 @@
  Start einer Anwendung mit anderen Credentials
  .NOTES
  Credential-Eingabe per [PSCredential]::new() mit Kennwort aus Textdatei
- Es gibt zwei User: psuser und psadmin als Administrator mit demo+1234/demo+123 als Kennwort
+ Es gibt zwei User: psuser und psadmin als Administrator mit demo+123 als Kennwort
 #>
 
 $AppName = "powershell.exe"
@@ -17,5 +17,5 @@ $PwPath = Join-Path -Path $PSScriptRoot -ChildPath Pw.dat
 $PWSec = Get-Content -Path $PwPath | ConvertTo-SecureString
 $PSCred = [PSCredential]::new("psadmin", $PWSec)
 
-# Start einer Anwendung mit anderen Credentials (aber ohne Administrator-Berechtigung!)
+# Start einer Anwendung mit anderen Credentials
 Start-Process -FilePath $Appname -ArgumentList $AppArgs -Credential $PSCred
