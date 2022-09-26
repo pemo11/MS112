@@ -12,7 +12,7 @@ $AppArgs = "-noprofile -noexit -c Get-Process | Where-Object WS -gt 100MB | Sele
 $PwPath = Join-Path -Path $PSScriptRoot -ChildPath Pw.dat
 
 # Nur einmal erforderlich
-# Read-Host -Prompt "Kennwort" -AsSecureString | ConvertFrom-SecureString | Out-File -FilePath $PwPath
+Read-Host -Prompt "Kennwort" -AsSecureString | ConvertFrom-SecureString | Out-File -FilePath $PwPath
 
 $PWSec = Get-Content -Path $PwPath | ConvertTo-SecureString
 $PSCred = [PSCredential]::new("psadmin", $PWSec)
