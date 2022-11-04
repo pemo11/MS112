@@ -4,12 +4,10 @@
 #>
 
 using namespace System.Windows.Markup
-using namespace System.Windows.Forms
 
 Add-Type -AssemblyName PresentationFramework
 Add-Type -AssemblyName PresentationCore
 Add-Type -AssemblyName WindowsBase
-Add-Type -AssemblyName System.Windows.Forms
 
 $XAML = @'
     <Window
@@ -47,7 +45,6 @@ $XAML = @'
 '@
 
 $ButtonClickSB = {
-    [MessageBox]::Show("Vielen Dank!")
     $ComputerName = $TextBox.Text
     $Dienste = Invoke-Command { Get-Service} # -ComputerName $ComputerName
     $ListBox.ItemsSource = $Dienste

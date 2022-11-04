@@ -10,7 +10,7 @@ using namespace System.Text
 $Txt = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
 
 # Dauer leider "ewig"
-$Limit = 5MB
+$Limit = 2MB
 $TextTotal = ""
 $Ts1 = (Measure-Command -Expression {
     while($TextTotal.Length -lt $Limit)

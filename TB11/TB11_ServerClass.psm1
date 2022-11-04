@@ -25,3 +25,4 @@ class Server
     }
 }
 
+[Server]::new()

@@ -39,19 +39,21 @@ function Get-Speicherkosten
     }
 
     end {
-        if ($PSBoundParameters.ContainsKey("Gesamtkosten"))
+        #if ($PSBoundParameters.ContainsKey("Gesamtkosten"))
+        if ($PSBoundParameters.Gesamtkosten)
         {
            $AusgangsPfad = (Get-Item -Path $Path).Parent.FullName
-           [PSCustomObject]@{Pfad=$AusgangsPfad;Kosten=$SpeicherkostenGesamt}
+           Write-Verbose "Berechne die Gesamtkosten für $Ausgangspfad"
+           [PSCustomObject]@{Pfad=">>>$AusgangsPfad";Kosten=$SpeicherkostenGesamt}
         }
     }
 }
 
-$Pfad = $env:USERPROFILE + "\Pictures\"
+$Pfad = $env:USERPROFILE + "\documents\"
 # Aufruf ohne Switch-Parameter
-Get-ChildItem -Path $Pfad -Directory | Get-Speicherkosten -SpeicherkostenMB 0.2
+# Get-ChildItem -Path $Pfad -Directory | Get-Speicherkosten -SpeicherkostenMB 0.2
 
 # Aufruf mit Switch-Parameter
-Get-ChildItem -Path $Pfad -Directory | Get-Speicherkosten -SpeicherkostenMB 0.2 -Gesamtkosten
+Get-ChildItem -Path $Pfad -Directory | Get-Speicherkosten -SpeicherkostenMB 0.2 -Gesamtkosten -Verbose
 
 

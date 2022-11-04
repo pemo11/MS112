@@ -17,7 +17,7 @@ using namespace System.Text
 $TxtPfad = [Path]::GetTempFileName()
 
 $Txt = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
-$Limit = 20MB
+$Limit = 50MB
 $Sb = [StringBuilder]::new()
 while($Sb.Length -lt $Limit)
 {

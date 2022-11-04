@@ -8,7 +8,7 @@ param([Parameter(ValueFromPipelineByPropertyName=$true)][Alias("PSPath")][String
 
 process
 {
-  Get-ChildItem -Path $Path -Directory -Recurse | ForEach {
+  Get-ChildItem -Path $Path -Directory -Recurse | ForEach-Object {
       $GroesseMB = (Get-ChildItem -Path $_.FullName -File | Measure-Object -Property Length -Sum).Sum / 1MB
       $Speicherkosten = $GroesseMB * $SpeicherkostenMB
       New-Object -TypeName PSObject -Property @{Pfad=$_.FullName;
