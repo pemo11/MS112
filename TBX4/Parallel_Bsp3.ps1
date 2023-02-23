@@ -1,4 +1,4 @@
-<#
+﻿<#
   .SYNOPSIS
   Beispiel für ForEach mit -Parallel
   .DESCRIPTION
@@ -34,7 +34,7 @@ $TuWasPtr = "TuWas"
 
 1..3 | ForEach-Object -Parallel {
     # Aufruf der Function geht nicht, da der Name Tuwas in dem Runspace nicht bekannt ist
-    # &$using:TuWasPtr -i $_
+    &$using:TuWasPtr -i $_
     # Der Inhalt der Variablen kann natürlich abgerufen werden 
     $using:TuWasPtr
 }

@@ -5,11 +5,11 @@
 
 function Remove-Number
 {
-    [CmdletBinding(SupportsShouldProcess=$true)]
+    [CmdletBinding(SupportsShouldProcess=$true,ConfirmImpact="Medium")]
     param([Int[]]$BaseArray, [Int[]]$RemoveArray)
     foreach($z in $RemoveArray)
     {
-        if ($PSCmdlet.ShouldProcess("Element $z lÃ¶schen?"))
+        if ($PSCmdlet.ShouldProcess("Element $z löschen?"))
         {
             $BaseArray = $BaseArray -ne $z
         }
@@ -20,4 +20,4 @@ function Remove-Number
 $z1 = 1..10
 $z2 = 3,5,7
 
-Remove-Number $z1 $z2 -Confirm
+Remove-Number $z1 $z2 # -Confirm:$false

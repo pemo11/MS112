@@ -1,4 +1,4 @@
-<#
+﻿<#
   .SYNOPSIS
   Beispiel für ForEach mit -Parallel
   .DESCRIPTION
