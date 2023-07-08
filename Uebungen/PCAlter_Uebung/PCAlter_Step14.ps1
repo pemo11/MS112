@@ -2,14 +2,14 @@
  .Synopsis
  Projekt PC-Alter-Abfrage
  .Notes
- Schritt 11: Abfrage gegen Computer im Netzwerk per WMI
+ Schritt 14: Das Kennwort wird als (zuvor angelegtes) Secret abgerufen
 #>
 
 <#
  .Synopsis
  Abfrage aller CPU-Daten
  .Description
- Grundlage ist die Datei cpu.csv im Unterverzeichnis /material
+ Die Daten stammen aus einem kennwortgeschützten Ftp-Verzeichnis
  .Example
  Get-CPUInfo
 #>
@@ -17,18 +17,28 @@ function Get-CPUInfo
 {
     [CmdletBinding()]
     param([Parameter(ValueFromPipeline=$true, Mandatory=$true)][String[]]$Computername)
+    begin
+    {
+        $ConfigPfad = Join-Path -Path $PSScriptRoot -ChildPath PCAlter.config
+        $Config = Import-PowerShellDataFile -Path $ConfigPfad
+        # Beim ersten Aufruf von Get-Secret kann eine Passwortabfrage für den Store erforderlich sein, wenn Authenticate für den Store != None ist
+        $Pw = Get-Secret -Name PCAlter
+        $Cred = [PSCredential]::New($Config.Username, $Pw)
+        $CsvPfad = Join-Path -Path $env:TEMP -ChildPath cpu.csv
+        Invoke-WebRequest -uri $Config.FtpUri -Credential $Cred -OutFile $CsvPfad
+    }
     process
     {
-        # F�r den Fall erforderlich, dass der Name/die Namen dem Parameter direkt zugewiesen werden
+        # Für den Fall erforderlich, dass der Name/die Namen dem Parameter direkt zugewiesen werden
         foreach($Computer in $Computername)
         {
             try {
                 Write-Verbose "Abfrage gegen $Computer"
                 $CimSes = New-CimSession -ComputerName $Computer
                 $CPUData = Get-CimInstance -ClassName Win32_Processor -CimSession $CimSes
-                $CSVPfad = Join-Path -Path $PSScriptRoot -ChildPath "Material/cpu.csv"
-                $CPUInfo = Import-CSV -Path $CSVPfad -Delimiter ";" | Where-Object {$CPUData.Name -like "*$($_.Name)*" }  | 
-                Select-Object -Property Name, Manufacturer, @{n="CreateDate";e={Get-Date -Date $_.CreateDate}}
+                $CPUName = $CPUData.Name
+                $CPUInfo = Import-CSV -Path $CsvPfad -Delimiter ";" | Where-Object {$CPUName -like "*$($_.Name)*" }  | 
+                 Select-Object -Property Name, Manufacturer, @{n="CreateDate";e={Get-Date -Date $_.CreateDate}}
                 # Ein neues Objekt zusammenstellen
                 [PSCustomObject]@{
                     Name = $CPUInfo.Name
@@ -47,7 +57,6 @@ function Get-CPUInfo
  
 }
 
-Get-CPUInfo -Computername "PowerPc", "PowerPc" -Verbose
+Get-CPUInfo -Computername "ServerB", "ServerDC" -Verbose
 
 
-"Localhost", "Localhost" | Get-CPUInfo -Verbose

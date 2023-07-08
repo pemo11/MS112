@@ -17,12 +17,12 @@
  #>
 function Get-CPUData
 {
-     # aus String wird String[] - damit können beliebig viele Werte übergeben werden
+     # aus String wird String[] - damit kÃ¶nnen beliebig viele Werte Ã¼bergeben werden
      [CmdletBinding()]
      param([Parameter(ValueFromPipeline=$true, Mandatory=$true)][String[]]$CpuTyp)
      process
      {
-         # Für den Fall erforderlich, dass der Name/die Namen dem Parameter direkt zugewiesen werden
+         # FÃ¼r den Fall erforderlich, dass der Name/die Namen dem Parameter direkt zugewiesen werden
          foreach($Typ in $CpuTyp)
          {
             Write-Verbose "Verarbeite $Typ"
@@ -38,7 +38,7 @@ $CPUTypen = @("AMD Ryzen 9 3900X 12-Core Processor","AMD Ryzen 9 5950X")
 # Das Array wird automatisch dem Parameter CpuTyp zugeordnet
 # $CPUTypen | Get-CPUData | Format-Table
 
-# Format-Table sorgt dafür, dass eine neue Pipeline angelegt wird (ansonsten werden beide Ausgaben zusammengefasst)
+# Format-Table sorgt dafÃ¼r, dass eine neue Pipeline angelegt wird (ansonsten werden beide Ausgaben zusammengefasst)
 # $CPUTypen | Get-CPUData  -Verbose | Format-Table
 
 Get-CPUData -CpuTyp $CPUTypen[0]

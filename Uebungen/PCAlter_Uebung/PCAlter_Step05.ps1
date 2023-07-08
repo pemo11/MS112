@@ -2,7 +2,7 @@
  .Synopsis
  Projekt PC-Alter-Abfrage
  .Notes
- Schritt 5: Durchführen einer konkreten Abfrage
+ Schritt 5: DurchfÃ¼hren einer konkreten Abfrage
 #>
 
 function Get-CPUData
@@ -15,5 +15,5 @@ function Get-CPUData
 $CPUTyp = "AMD Ryzen 9 3900X 12-Core Processor"
 Get-CPUData  | Where-Object {$CPUTyp -like "*$($_.Name)*"} | Select-Object -Property CreateDate
 
-# Oder, wenn die Rückgabe ein DateTime-Wert sein soll
+# Oder, wenn die RÃ¼ckgabe ein DateTime-Wert sein soll
 Get-CPUData  | Where-Object {$CPUTyp -like "*$($_.Name)*"} | Select-Object -Property @{n="Datum";e={Get-Date -Date $_.CreateDate}}

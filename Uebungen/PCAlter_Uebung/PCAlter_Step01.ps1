@@ -2,7 +2,7 @@
  .Synopsis
  Projekt PC-Alter-Abfrage
  .Notes
- Schritt 1: Ausgabe des CPU-Typs über eine WMI-Abfrage
+ Schritt 1: Ausgabe des CPU-Typs Ã¼ber eine WMI-Abfrage
 #>
 
 Get-CimInstance -ClassName Win32_Processor 

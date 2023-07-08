@@ -2,7 +2,7 @@
  .Synopsis
  Projekt PC-Alter-Abfrage
  .Notes
- Schritt 10: Eine reguläre WMI-Abfrage mit dem Alter der CPU als zusätzliche Eigenschaft
+ Schritt 10: Eine regulÃ¤re WMI-Abfrage mit dem Alter der CPU als zusÃ¤tzliche Eigenschaft
 #>
 
 <#

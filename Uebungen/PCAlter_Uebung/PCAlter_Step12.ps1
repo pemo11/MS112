@@ -2,16 +2,14 @@
  .Synopsis
  Projekt PC-Alter-Abfrage
  .Notes
- Schritt 13: Alle "bewegenlichen" Daten in eine Config-Datei ausgelagert
+ Schritt 12: Abfrage gegen Daten, die Ã¼ber eine URL heruntergeladen werden
 #>
-
-Set-StrictMode -Version Latest
 
 <#
  .Synopsis
  Abfrage aller CPU-Daten
  .Description
- Die Daten stammen aus einem kennwortgeschützten Ftp-Verzeichnis
+ Die Daten stammen von einem "Webservice" bzw.aus einem Ftp-Verzeichnis
  .Example
  Get-CPUInfo
 #>
@@ -21,17 +19,15 @@ function Get-CPUInfo
     param([Parameter(ValueFromPipeline=$true, Mandatory=$true)][String[]]$Computername)
     begin
     {
-        $ConfigPfad = Join-Path -Path $PSScriptRoot -ChildPath PCAlter.config
-        $Config = Import-PowerShellDataFile -Path $ConfigPfad
         # Herunterladen der CSV-Datei aus einem Ftp-Verzeichnis
         # Keine SSL-Problematik, daher gute Alternative zum Http-Download
-        $Cred = [PSCredential]::New($Config.Username, (ConvertTo-SecureString -String $Config.Password))
+        $Cred = [PSCredential]::New("ftp12146773-pskurs", (ConvertTo-SecureString -String "posh2021" -AsPlainText -Force))
         $CsvPfad = Join-Path -Path $env:TEMP -ChildPath cpu.csv
-        Invoke-WebRequest -uri $Config.FtpUri -Credential $Cred -OutFile $CsvPfad
+        Invoke-WebRequest -uri ftp://wp12146773.server-he.de/posh/cpu.csv -Credential $Cred -OutFile $CsvPfad
     }
     process
     {
-        # Für den Fall erforderlich, dass der Name/die Namen dem Parameter direkt zugewiesen werden
+        # FÃ¼r den Fall erforderlich, dass der Name/die Namen dem Parameter direkt zugewiesen werden
         foreach($Computer in $Computername)
         {
             try {
@@ -59,6 +55,7 @@ function Get-CPUInfo
  
 }
 
-Get-CPUInfo -Computername "ServerDC", "ServerB" -Verbose
+Get-CPUInfo -Computername "PowerPc", "PowerPc" -Verbose
 
 
+"Localhost", "Localhost" | Get-CPUInfo -Verbose
