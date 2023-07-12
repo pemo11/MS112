@@ -1,6 +1,6 @@
 <#
   .SYNOPSIS
-  Beispiel für ForEach mit -Parallel
+  Beispiel fÃ¼r ForEach mit -Parallel
   .DESCRIPTION
   Erstes Kennenlernen der Funktionsweise
 #>
@@ -13,7 +13,7 @@
   "Durchlauf Nr. $_ (ThreadId: $ThreadId)"
 }
 
-# Jeder Durchlauf wird auf einem eigenen Thread ausgeführt
+# Jeder Durchlauf wird auf einem eigenen Thread ausgefÃ¼hrt
 1..10 | ForEach-Object -Parallel {
   $ThreadId = [AppDomain]::GetCurrentThreadId()
   "Durchlauf Nr. $_ (ThreadId: $ThreadId)"

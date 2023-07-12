@@ -1,6 +1,6 @@
 <#
  .Synopsis
- Beispiel für das Zusammenspiel von ConfirmImpact und ConfirmPreference
+ Beispiel fÃ¼r das Zusammenspiel von ConfirmImpact und ConfirmPreference
 #>
 
 function Remove-Number
@@ -9,7 +9,7 @@ function Remove-Number
     param([Int[]]$BaseArray, [Int[]]$RemoveArray)
     foreach($z in $RemoveArray)
     {
-        if ($PSCmdlet.ShouldProcess("Element $z löschen?"))
+        if ($PSCmdlet.ShouldProcess("Element $z lÃ¶schen?"))
         {
             $BaseArray = $BaseArray -ne $z
         }
@@ -25,5 +25,4 @@ $ConfirmPreference = "High"
 Remove-Number $z1 $z2 
 
 $ConfirmPreference = "Medium"
-Remove-Number $z1 $z2
-
+Remove-Number $z1 $z2 

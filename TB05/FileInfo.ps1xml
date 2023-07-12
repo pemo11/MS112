@@ -1,0 +1,21 @@
+<Types>
+    <Type>
+        <Name>System.Diagnostics.Process</Name>
+        <Members>
+            <ScriptProperty>
+                <Name>Laufzeit</Name>
+                <GetScriptBlock>
+                    $Esc = [Char]27
+                    if (((Get-Date) - ($_.StartTime)).Hours -gt 1)
+                    {
+                        "**$Esc[31m$($_.StartTime)$Esc[0m"
+                    }
+                    else
+                    {
+                        "$Esc[30m$($_.StartTime)$Esc[0m"
+                    }
+                </GetScriptBlock>
+            </ScriptProperty>
+        </Members>
+    </Type>
+</Types>

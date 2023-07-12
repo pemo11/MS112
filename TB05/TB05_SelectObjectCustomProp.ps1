@@ -8,6 +8,9 @@
     e= { $_.CreationTime.DayOfWeek }
  }
 
- dir -Path C:\Windows | Select-Object Name, CreationTime, $Wochentag
+ # Get-ChildItem -Path C:\Windows | Select-Object Name, CreationTime, $Wochentag
 
  # Wichtig: Anstelle von "Montag" soll natürlich der richtige Wochentag ausgegeben werden
+
+ Get-ChildItem -Path C:\Windows | Select-Object -Property Name, CreationTime, $Wochentag | 
+  Group-Object -Property Wochentag
