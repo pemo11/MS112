@@ -1,8 +1,8 @@
-<#
+﻿<#
  .Synopsis
  PowerShell-Remoting mit SSH
  .Notes
- Auf dem Remote-Computer muss SSH für PowerShell eingerichtet worden sein, am einfachsten per 
+ Auf dem Remote-Computer muss SSH für PowerShell eingerichtet worden sein, am einfachsten per
  Enable-SSHRemoting aus dem Microsoft.PowerShell.RemotingTools-Modul
 #>
 

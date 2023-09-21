@@ -1,5 +1,5 @@
-
-$ADUser = Import-CSV -Path .\Material\ADUserDaten.csv -Delimiter ";" -Encoding Default 
+﻿
+$ADUser = Import-CSV -Path .\Material\ADUserDaten.csv -Delimiter ";" -Encoding Default
 
 # Abfrage des Typs
 $ADUser.GetType().Name

@@ -1,4 +1,4 @@
-<#
+﻿<#
  .SYNOPSIS
  Typ-Erweiterung für Farbige Ausgaben
 #>
@@ -31,4 +31,4 @@ $TypeXml = @'
 $TypeXmlPath = Join-Path -Path $PSScriptRoot -ChildPath ProcessType.ps1xml
 $TypeXml | Set-Content -Path $TypeXmlPath
 
-Update-TypeData -AppendPath $TypeXmlPath 
+Update-TypeData -AppendPath $TypeXmlPath

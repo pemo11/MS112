@@ -1,4 +1,4 @@
-<#
+﻿<#
  .Synopsis
  Strings zusammensetzen
  .Synopsis
@@ -15,7 +15,7 @@ $TextTotal = ""
 $Ts1 = (Measure-Command -Expression {
     while($TextTotal.Length -lt $Limit)
     {
-        $TextTotal += $Txt    
+        $TextTotal += $Txt
     }
 }).TotalSeconds
 

@@ -12,5 +12,5 @@
 
  # Wichtig: Anstelle von "Montag" soll natürlich der richtige Wochentag ausgegeben werden
 
- Get-ChildItem -Path C:\Windows | Select-Object -Property Name, CreationTime, $Wochentag | 
+ Get-ChildItem -Path C:\Windows | Select-Object -Property Name, CreationTime, $Wochentag |
   Group-Object -Property Wochentag

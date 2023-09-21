@@ -1,4 +1,4 @@
-<#
+﻿<#
  .Synopsis
  Erstellen einer Assembly mit C#-Code
 #>
@@ -27,7 +27,7 @@ $CSCode = @'
 '@
 
 
-#Add-Type -TypeDefinition $CSCode -OutputType Library -OutputAssembly HalloWelt.dll 
+#Add-Type -TypeDefinition $CSCode -OutputType Library -OutputAssembly HalloWelt.dll
 
 Add-Type -Path .\HalloWelt.dll -PassThru  | Select-Object Fullname, Namespace
 

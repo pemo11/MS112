@@ -12,4 +12,4 @@ $h[2].p1 = 222
 $o1
 $o2
 
-[object] | gm | where {$_.Name -like "*clone*"}
+[object] | Get-Member | Where-Object {$_.Name -like "*clone*"}

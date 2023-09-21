@@ -1,4 +1,4 @@
-<# 
+﻿<#
  .Synopsis
  Beispiel für eine Typ-Erweiterung
 #>
@@ -44,7 +44,7 @@ $TypeXml = @'
 $TypeXmlPath = Join-Path -Path $PSScriptRoot -ChildPath ServerType.ps1xml
 $TypeXml | Set-Content -Path $TypeXmlPath
 
-Update-TypeData -AppendPath $TypeXmlPath 
+Update-TypeData -AppendPath $TypeXmlPath
 
 $S1 = [Server]::new("Server123")
 $S1

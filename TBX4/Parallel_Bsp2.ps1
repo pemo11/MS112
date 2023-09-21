@@ -1,4 +1,4 @@
-<#
+﻿<#
   .SYNOPSIS
   Beispiel für ForEach mit -Parallel
   .DESCRIPTION
@@ -11,7 +11,7 @@
 
 function Get-CpuCore
 {
-    (Get-CimInstance -ClassName Win32_Processor).NumberOfCores 
+    (Get-CimInstance -ClassName Win32_Processor).NumberOfCores
 }
 
 "Anzahl Cores: $(Get-CpuCore)"
@@ -23,7 +23,7 @@ $StartTime = Get-Date
 $Esc = [char]27
 
 "`e[32m *** Ausführung mit ThrottleLimit=5 ***$Esc[0m"
-1..10 | ForEach-Object -Parallel {
+1..10 | ForEach-Object -ThrottleLimit 5 -Parallel {
     $ThreadId = [AppDomain]::GetCurrentThreadId()
     "Durchlauf Nr. $_ (ThreadId: $ThreadId)"
     Start-Sleep -Seconds 1

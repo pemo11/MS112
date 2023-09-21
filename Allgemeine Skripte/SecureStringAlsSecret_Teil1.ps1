@@ -9,8 +9,8 @@
 Register-SecretVault -Name SecretStore -ModuleName Microsoft.PowerShell.SecretStore -DefaultVault
 $PwSec = Read-Host -Prompt "Pw?" -AsSecureString
 Beim ersten Mal ist eine Passwort-Eingabe für den Vault erforderlich (demo+123)
-Set-Secret -Name PwSec -Secret $PwSec -Vault SecretStore 
+Set-Secret -Name PwSec -Secret $PwSec -Vault SecretStore
 
-Get-SecretVault -Name SecretStore 
+Get-SecretVault -Name SecretStore
 
 Test-SecretVault -Name SecretStore

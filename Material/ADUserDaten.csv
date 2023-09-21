@@ -1,11 +1,11 @@
-Id;Username;City;EMail;Birthday
-1;User001;Fürth;User001pskurs.local;01.05.1960
+Id;Username;City;EMail;GebDatum
+1;User001;FÃ¼rth;User001pskurs.local;01.05.1960
 2;User002;Jena;User002pskurs.local;03.11.1986
 3;User003;Oldenburg (Oldb);User003pskurs.local;15.02.1966
 4;User004;Stuttgart;User004pskurs.local;15.01.1979
 5;User005;Bielefeld;User005pskurs.local;08.09.1986
 6;User006;Essen;User006pskurs.local;13.08.1973
-7;User007;Nürnberg;User007pskurs.local;13.05.1977
+7;User007;NÃ¼rnberg;User007pskurs.local;13.05.1977
 8;User008;Ingolstadt;User008pskurs.local;15.03.1985
 9;User009;Mainz;User009pskurs.local;06.05.1968
 10;User010;Darmstadt;User010pskurs.local;19.02.1965
@@ -13,7 +13,7 @@ Id;Username;City;EMail;Birthday
 12;User012;Oldenburg (Oldb);User012pskurs.local;14.04.1980
 13;User013;Stuttgart;User013pskurs.local;19.07.1968
 14;User014;Gelsenkirchen;User014pskurs.local;15.06.1960
-15;User015;Göttingen;User015pskurs.local;07.04.1973
+15;User015;GÃ¶ttingen;User015pskurs.local;07.04.1973
 16;User016;Koblenz;User016pskurs.local;15.08.1974
 17;User017;Bochum;User017pskurs.local;02.11.1975
 18;User018;Cottbus;User018pskurs.local;15.10.1983
@@ -29,19 +29,19 @@ Id;Username;City;EMail;Birthday
 28;User028;Bielefeld;User028pskurs.local;17.04.1968
 29;User029;Remscheid;User029pskurs.local;28.12.1969
 30;User030;Oldenburg (Oldb);User030pskurs.local;09.06.1978
-31;User031;Düsseldorf;User031pskurs.local;31.12.1984
+31;User031;DÃ¼sseldorf;User031pskurs.local;31.12.1984
 32;User032;Reutlingen;User032pskurs.local;30.09.1965
 33;User033;Moers;User033pskurs.local;20.05.1983
-34;User034;Göttingen;User034pskurs.local;04.06.1990
+34;User034;GÃ¶ttingen;User034pskurs.local;04.06.1990
 35;User035;Hannover;User035pskurs.local;08.07.1978
-36;User036;Köln;User036pskurs.local;08.08.1975
+36;User036;KÃ¶ln;User036pskurs.local;08.08.1975
 37;User037;Karlsruhe;User037pskurs.local;25.02.1987
 38;User038;Berlin;User038pskurs.local;20.02.1966
 39;User039;Reutlingen;User039pskurs.local;30.03.1973
 40;User040;Kiel;User040pskurs.local;16.06.1985
 41;User041;Darmstadt;User041pskurs.local;04.04.1971
 42;User042;Bottrop;User042pskurs.local;26.12.1990
-43;User043;Göttingen;User043pskurs.local;25.10.1968
+43;User043;GÃ¶ttingen;User043pskurs.local;25.10.1968
 44;User044;Kassel;User044pskurs.local;12.05.1962
 45;User045;Darmstadt;User045pskurs.local;23.07.1979
 46;User046;Ulm;User046pskurs.local;29.03.1963
@@ -54,13 +54,13 @@ Id;Username;City;EMail;Birthday
 53;User053;Offenbach am Main;User053pskurs.local;23.06.1981
 54;User054;Remscheid;User054pskurs.local;15.01.1988
 55;User055;Bochum;User055pskurs.local;09.05.1984
-56;User056;München;User056pskurs.local;04.05.1978
-57;User057;Göttingen;User057pskurs.local;01.06.1977
-58;User058;Bremer­haven;User058pskurs.local;24.10.1967
+56;User056;MÃ¼nchen;User056pskurs.local;04.05.1978
+57;User057;GÃ¶ttingen;User057pskurs.local;01.06.1977
+58;User058;BremerÂ­haven;User058pskurs.local;24.10.1967
 59;User059;Hannover;User059pskurs.local;12.10.1979
 60;User060;Bergisch Gladbach;User060pskurs.local;21.02.1983
 61;User061;Augsburg;User061pskurs.local;30.08.1989
-62;User062;Göttingen;User062pskurs.local;10.10.1967
+62;User062;GÃ¶ttingen;User062pskurs.local;10.10.1967
 63;User063;Mannheim;User063pskurs.local;27.03.1976
 64;User064;Hamm;User064pskurs.local;16.05.1971
 65;User065;Oberhausen;User065pskurs.local;16.02.1978
@@ -70,9 +70,9 @@ Id;Username;City;EMail;Birthday
 69;User069;Salzgitter;User069pskurs.local;22.03.1966
 70;User070;Wuppertal;User070pskurs.local;24.02.1975
 71;User071;Hildesheim;User071pskurs.local;21.05.1987
-72;User072;Fürth;User072pskurs.local;03.07.1987
+72;User072;FÃ¼rth;User072pskurs.local;03.07.1987
 73;User073;Bottrop;User073pskurs.local;06.09.1973
-74;User074;Gütersloh;User074pskurs.local;10.12.1987
+74;User074;GÃ¼tersloh;User074pskurs.local;10.12.1987
 75;User075;Heilbronn;User075pskurs.local;25.08.1986
 76;User076;Ingolstadt;User076pskurs.local;03.08.1966
 77;User077;Cottbus;User077pskurs.local;20.07.1963
@@ -83,31 +83,31 @@ Id;Username;City;EMail;Birthday
 82;User082;Halle (Saale);User082pskurs.local;10.06.1971
 83;User083;Oldenburg (Oldb);User083pskurs.local;21.05.1985
 84;User084;Recklinghausen;User084pskurs.local;22.11.1964
-85;User085;Gütersloh;User085pskurs.local;21.02.1960
+85;User085;GÃ¼tersloh;User085pskurs.local;21.02.1960
 86;User086;Erfurt;User086pskurs.local;27.10.1966
 87;User087;Mainz;User087pskurs.local;09.01.1975
-88;User088;Bremer­haven;User088pskurs.local;04.06.1962
+88;User088;BremerÂ­haven;User088pskurs.local;04.06.1962
 89;User089;Ulm;User089pskurs.local;11.08.1966
 90;User090;Oldenburg (Oldb);User090pskurs.local;09.05.1966
-91;User091;Lübeck;User091pskurs.local;21.02.1979
+91;User091;LÃ¼beck;User091pskurs.local;21.02.1979
 92;User092;Neuss;User092pskurs.local;09.02.1986
 93;User093;Offenbach am Main;User093pskurs.local;28.03.1990
-94;User094;Düsseldorf;User094pskurs.local;19.06.1964
+94;User094;DÃ¼sseldorf;User094pskurs.local;19.06.1964
 95;User095;Karlsruhe;User095pskurs.local;23.11.1986
 96;User096;Gelsenkirchen;User096pskurs.local;28.04.1960
 97;User097;Gelsenkirchen;User097pskurs.local;04.01.1979
-98;User098;Köln;User098pskurs.local;17.09.1987
+98;User098;KÃ¶ln;User098pskurs.local;17.09.1987
 99;User099;Recklinghausen;User099pskurs.local;29.04.1990
-100;User100;Münster;User100pskurs.local;27.12.1972
+100;User100;MÃ¼nster;User100pskurs.local;27.12.1972
 101;User101;Oldenburg (Oldb);User101pskurs.local;16.08.1981
 102;User102;Leverkusen;User102pskurs.local;16.12.1968
 103;User103;Aachen;User103pskurs.local;06.12.1983
 104;User104;Ingolstadt;User104pskurs.local;09.01.1990
 105;User105;Heilbronn;User105pskurs.local;24.08.1960
-106;User106;Lübeck;User106pskurs.local;27.11.1967
+106;User106;LÃ¼beck;User106pskurs.local;27.11.1967
 107;User107;Kassel;User107pskurs.local;10.07.1963
 108;User108;Heidelberg;User108pskurs.local;14.02.1982
-109;User109;Göttingen;User109pskurs.local;26.04.1973
+109;User109;GÃ¶ttingen;User109pskurs.local;26.04.1973
 110;User110;Ludwigshafen am Rhein;User110pskurs.local;26.05.1965
 111;User111;Kassel;User111pskurs.local;06.05.1961
 112;User112;Bremen;User112pskurs.local;24.11.1971
@@ -128,21 +128,21 @@ Id;Username;City;EMail;Birthday
 127;User127;Krefeld;User127pskurs.local;10.06.1961
 128;User128;Stuttgart;User128pskurs.local;21.08.1974
 129;User129;Rostock;User129pskurs.local;06.09.1969
-130;User130;Bremer­haven;User130pskurs.local;23.05.1970
-131;User131;Gütersloh;User131pskurs.local;21.07.1977
+130;User130;BremerÂ­haven;User130pskurs.local;23.05.1970
+131;User131;GÃ¼tersloh;User131pskurs.local;21.07.1977
 132;User132;Bielefeld;User132pskurs.local;07.02.1965
-133;User133;Köln;User133pskurs.local;30.09.1973
+133;User133;KÃ¶ln;User133pskurs.local;30.09.1973
 134;User134;Leipzig;User134pskurs.local;01.07.1983
 135;User135;Gelsenkirchen;User135pskurs.local;28.09.1984
 136;User136;Magdeburg;User136pskurs.local;30.08.1988
 137;User137;Dortmund;User137pskurs.local;16.07.1978
 138;User138;Recklinghausen;User138pskurs.local;29.11.1967
-139;User139;Lübeck;User139pskurs.local;07.09.1962
-140;User140;Münster;User140pskurs.local;05.03.1977
-141;User141;Saarbrücken;User141pskurs.local;12.08.1983
+139;User139;LÃ¼beck;User139pskurs.local;07.09.1962
+140;User140;MÃ¼nster;User140pskurs.local;05.03.1977
+141;User141;SaarbrÃ¼cken;User141pskurs.local;12.08.1983
 142;User142;Hamm;User142pskurs.local;04.01.1971
-143;User143;Düsseldorf;User143pskurs.local;29.01.1960
-144;User144;Münster;User144pskurs.local;18.10.1970
+143;User143;DÃ¼sseldorf;User143pskurs.local;29.01.1960
+144;User144;MÃ¼nster;User144pskurs.local;18.10.1970
 145;User145;Koblenz;User145pskurs.local;16.08.1966
 146;User146;Bergisch Gladbach;User146pskurs.local;25.07.1988
 147;User147;Koblenz;User147pskurs.local;27.05.1977
@@ -155,11 +155,11 @@ Id;Username;City;EMail;Birthday
 154;User154;Kiel;User154pskurs.local;18.09.1969
 155;User155;Hildesheim;User155pskurs.local;08.11.1965
 156;User156;Herne;User156pskurs.local;30.07.1978
-157;User157;Fürth;User157pskurs.local;19.04.1982
+157;User157;FÃ¼rth;User157pskurs.local;19.04.1982
 158;User158;Recklinghausen;User158pskurs.local;14.12.1990
 159;User159;Hamburg;User159pskurs.local;25.08.1972
 160;User160;Dortmund;User160pskurs.local;07.06.1972
-161;User161;Düsseldorf;User161pskurs.local;24.12.1986
+161;User161;DÃ¼sseldorf;User161pskurs.local;24.12.1986
 162;User162;Dortmund;User162pskurs.local;07.09.1976
 163;User163;Stuttgart;User163pskurs.local;08.04.1988
 164;User164;Hagen;User164pskurs.local;19.10.1990
@@ -171,7 +171,7 @@ Id;Username;City;EMail;Birthday
 170;User170;Jena;User170pskurs.local;12.03.1968
 171;User171;Recklinghausen;User171pskurs.local;02.09.1972
 172;User172;Oberhausen;User172pskurs.local;03.06.1969
-173;User173;Münster;User173pskurs.local;07.02.1976
+173;User173;MÃ¼nster;User173pskurs.local;07.02.1976
 174;User174;Recklinghausen;User174pskurs.local;06.07.1984
 175;User175;Freiburg im Breisgau;User175pskurs.local;10.06.1971
 176;User176;Wuppertal;User176pskurs.local;11.09.1988
@@ -187,9 +187,9 @@ Id;Username;City;EMail;Birthday
 186;User186;Hildesheim;User186pskurs.local;28.11.1986
 187;User187;Mannheim;User187pskurs.local;20.03.1966
 188;User188;Hamm;User188pskurs.local;09.03.1979
-189;User189;Würzburg;User189pskurs.local;20.08.1990
+189;User189;WÃ¼rzburg;User189pskurs.local;20.08.1990
 190;User190;Rostock;User190pskurs.local;28.07.1967
-191;User191;Würzburg;User191pskurs.local;17.02.1987
+191;User191;WÃ¼rzburg;User191pskurs.local;17.02.1987
 192;User192;Hamm;User192pskurs.local;14.05.1982
 193;User193;Aachen;User193pskurs.local;30.08.1987
 194;User194;Reutlingen;User194pskurs.local;30.11.1982
@@ -198,17 +198,17 @@ Id;Username;City;EMail;Birthday
 197;User197;Herne;User197pskurs.local;06.04.1961
 198;User198;Regensburg;User198pskurs.local;16.12.1960
 199;User199;Erfurt;User199pskurs.local;01.04.1973
-200;User200;Bremer­haven;User200pskurs.local;30.04.1970
+200;User200;BremerÂ­haven;User200pskurs.local;30.04.1970
 201;User201;Potsdam;User201pskurs.local;20.03.1984
 202;User202;Heidelberg;User202pskurs.local;05.10.1966
 203;User203;Mainz;User203pskurs.local;20.08.1972
 204;User204;Erlangen;User204pskurs.local;23.08.1969
-205;User205;Göttingen;User205pskurs.local;06.05.1968
+205;User205;GÃ¶ttingen;User205pskurs.local;06.05.1968
 206;User206;Erlangen;User206pskurs.local;23.08.1980
 207;User207;Bielefeld;User207pskurs.local;22.04.1975
 208;User208;Karlsruhe;User208pskurs.local;21.06.1970
-209;User209;Lübeck;User209pskurs.local;13.02.1968
-210;User210;Lübeck;User210pskurs.local;02.03.1987
+209;User209;LÃ¼beck;User209pskurs.local;13.02.1968
+210;User210;LÃ¼beck;User210pskurs.local;02.03.1987
 211;User211;Mainz;User211pskurs.local;08.02.1976
 212;User212;Mannheim;User212pskurs.local;25.11.1977
 213;User213;Oberhausen;User213pskurs.local;25.01.1970
@@ -228,11 +228,11 @@ Id;Username;City;EMail;Birthday
 227;User227;Jena;User227pskurs.local;26.04.1977
 228;User228;Frankfurt am Main;User228pskurs.local;30.09.1965
 229;User229;Duisburg;User229pskurs.local;25.05.1973
-230;User230;München;User230pskurs.local;27.07.1971
+230;User230;MÃ¼nchen;User230pskurs.local;27.07.1971
 231;User231;Leverkusen;User231pskurs.local;10.11.1975
 232;User232;Wiesbaden;User232pskurs.local;24.11.1970
-233;User233;Osnabrück;User233pskurs.local;05.04.1973
-234;User234;Münster;User234pskurs.local;21.08.1963
+233;User233;OsnabrÃ¼ck;User233pskurs.local;05.04.1973
+234;User234;MÃ¼nster;User234pskurs.local;21.08.1963
 235;User235;Duisburg;User235pskurs.local;15.05.1990
 236;User236;Wolfsburg;User236pskurs.local;22.06.1973
 237;User237;Offenbach am Main;User237pskurs.local;11.03.1978
@@ -250,13 +250,13 @@ Id;Username;City;EMail;Birthday
 249;User249;Salzgitter;User249pskurs.local;24.06.1976
 250;User250;Dresden;User250pskurs.local;18.01.1970
 251;User251;Paderborn;User251pskurs.local;18.10.1964
-252;User252;München;User252pskurs.local;17.11.1975
+252;User252;MÃ¼nchen;User252pskurs.local;17.11.1975
 253;User253;Hagen;User253pskurs.local;26.03.1990
-254;User254;Würzburg;User254pskurs.local;03.09.1990
-255;User255;Köln;User255pskurs.local;16.07.1972
+254;User254;WÃ¼rzburg;User254pskurs.local;03.09.1990
+255;User255;KÃ¶ln;User255pskurs.local;16.07.1972
 256;User256;Karlsruhe;User256pskurs.local;16.03.1972
 257;User257;Essen;User257pskurs.local;08.08.1984
-258;User258;Fürth;User258pskurs.local;07.04.1981
+258;User258;FÃ¼rth;User258pskurs.local;07.04.1981
 259;User259;Heilbronn;User259pskurs.local;26.05.1988
 260;User260;Regensburg;User260pskurs.local;07.03.1974
 261;User261;Reutlingen;User261pskurs.local;16.10.1967
@@ -268,11 +268,11 @@ Id;Username;City;EMail;Birthday
 267;User267;Bremen;User267pskurs.local;20.12.1961
 268;User268;Herne;User268pskurs.local;14.01.1977
 269;User269;Leverkusen;User269pskurs.local;06.12.1965
-270;User270;Osnabrück;User270pskurs.local;16.06.1977
+270;User270;OsnabrÃ¼ck;User270pskurs.local;16.06.1977
 271;User271;Bonn;User271pskurs.local;02.02.1989
 272;User272;Stuttgart;User272pskurs.local;13.06.1990
 273;User273;Oberhausen;User273pskurs.local;09.11.1972
-274;User274;Saarbrücken;User274pskurs.local;02.05.1969
+274;User274;SaarbrÃ¼cken;User274pskurs.local;02.05.1969
 275;User275;Magdeburg;User275pskurs.local;14.06.1981
 276;User276;Solingen;User276pskurs.local;20.03.1966
 277;User277;Dresden;User277pskurs.local;17.12.1989
@@ -285,14 +285,14 @@ Id;Username;City;EMail;Birthday
 284;User284;Reutlingen;User284pskurs.local;14.11.1974
 285;User285;Dresden;User285pskurs.local;05.04.1968
 286;User286;Magdeburg;User286pskurs.local;10.04.1969
-287;User287;Mülheim an der Ruhr;User287pskurs.local;08.04.1975
-288;User288;Bremer­haven;User288pskurs.local;09.05.1976
+287;User287;MÃ¼lheim an der Ruhr;User287pskurs.local;08.04.1975
+288;User288;BremerÂ­haven;User288pskurs.local;09.05.1976
 289;User289;Pforzheim;User289pskurs.local;22.10.1960
 290;User290;Krefeld;User290pskurs.local;24.05.1965
 291;User291;Wuppertal;User291pskurs.local;26.12.1965
 292;User292;Jena;User292pskurs.local;13.12.1967
 293;User293;Leipzig;User293pskurs.local;02.05.1990
-294;User294;Osnabrück;User294pskurs.local;05.08.1972
+294;User294;OsnabrÃ¼ck;User294pskurs.local;05.08.1972
 295;User295;Oberhausen;User295pskurs.local;03.04.1986
 296;User296;Pforzheim;User296pskurs.local;03.04.1982
 297;User297;Mannheim;User297pskurs.local;08.05.1965
@@ -300,7 +300,7 @@ Id;Username;City;EMail;Birthday
 299;User299;Hagen;User299pskurs.local;17.07.1982
 300;User300;Stuttgart;User300pskurs.local;15.02.1989
 301;User301;Solingen;User301pskurs.local;03.11.1982
-302;User302;Düsseldorf;User302pskurs.local;07.05.1980
+302;User302;DÃ¼sseldorf;User302pskurs.local;07.05.1980
 303;User303;Chemnitz;User303pskurs.local;14.01.1970
 304;User304;Oldenburg (Oldb);User304pskurs.local;18.09.1987
 305;User305;Gelsenkirchen;User305pskurs.local;03.11.1969
@@ -313,14 +313,14 @@ Id;Username;City;EMail;Birthday
 312;User312;Regensburg;User312pskurs.local;26.01.1972
 313;User313;Wolfsburg;User313pskurs.local;13.07.1967
 314;User314;Dortmund;User314pskurs.local;03.03.1987
-315;User315;Würzburg;User315pskurs.local;04.02.1966
+315;User315;WÃ¼rzburg;User315pskurs.local;04.02.1966
 316;User316;Heilbronn;User316pskurs.local;11.04.1960
 317;User317;Gelsenkirchen;User317pskurs.local;30.12.1990
 318;User318;Wuppertal;User318pskurs.local;17.01.1962
 319;User319;Cottbus;User319pskurs.local;24.10.1962
 320;User320;Essen;User320pskurs.local;12.12.1966
 321;User321;Cottbus;User321pskurs.local;09.02.1983
-322;User322;Saarbrücken;User322pskurs.local;11.03.1964
+322;User322;SaarbrÃ¼cken;User322pskurs.local;11.03.1964
 323;User323;Karlsruhe;User323pskurs.local;15.04.1973
 324;User324;Braunschweig;User324pskurs.local;18.01.1960
 325;User325;Oberhausen;User325pskurs.local;17.11.1989
@@ -333,49 +333,49 @@ Id;Username;City;EMail;Birthday
 332;User332;Oberhausen;User332pskurs.local;02.03.1973
 333;User333;Offenbach am Main;User333pskurs.local;05.06.1980
 334;User334;Bonn;User334pskurs.local;24.08.1965
-335;User335;Köln;User335pskurs.local;19.05.1985
+335;User335;KÃ¶ln;User335pskurs.local;19.05.1985
 336;User336;Neuss;User336pskurs.local;23.06.1975
 337;User337;Reutlingen;User337pskurs.local;30.01.1964
 338;User338;Mainz;User338pskurs.local;09.03.1977
-339;User339;Saarbrücken;User339pskurs.local;03.03.1966
+339;User339;SaarbrÃ¼cken;User339pskurs.local;03.03.1966
 340;User340;Pforzheim;User340pskurs.local;19.12.1979
 341;User341;Aachen;User341pskurs.local;29.11.1988
 342;User342;Darmstadt;User342pskurs.local;01.04.1967
 343;User343;Moers;User343pskurs.local;01.06.1978
 344;User344;Krefeld;User344pskurs.local;22.05.1978
-345;User345;München;User345pskurs.local;18.10.1978
-346;User346;Osnabrück;User346pskurs.local;26.05.1975
-347;User347;Fürth;User347pskurs.local;13.05.1972
+345;User345;MÃ¼nchen;User345pskurs.local;18.10.1978
+346;User346;OsnabrÃ¼ck;User346pskurs.local;26.05.1975
+347;User347;FÃ¼rth;User347pskurs.local;13.05.1972
 348;User348;Pforzheim;User348pskurs.local;14.06.1975
 349;User349;Duisburg;User349pskurs.local;11.04.1975
 350;User350;Jena;User350pskurs.local;19.12.1980
-351;User351;Göttingen;User351pskurs.local;30.05.1986
+351;User351;GÃ¶ttingen;User351pskurs.local;30.05.1986
 352;User352;Siegen;User352pskurs.local;14.11.1980
-353;User353;Fürth;User353pskurs.local;08.06.1960
+353;User353;FÃ¼rth;User353pskurs.local;08.06.1960
 354;User354;Remscheid;User354pskurs.local;25.08.1984
 355;User355;Hannover;User355pskurs.local;20.05.1974
 356;User356;Herne;User356pskurs.local;21.11.1970
 357;User357;Pforzheim;User357pskurs.local;15.10.1975
 358;User358;Berlin;User358pskurs.local;04.02.1964
 359;User359;Erlangen;User359pskurs.local;10.11.1969
-360;User360;Saarbrücken;User360pskurs.local;02.06.1988
+360;User360;SaarbrÃ¼cken;User360pskurs.local;02.06.1988
 361;User361;Bottrop;User361pskurs.local;11.11.1974
 362;User362;Remscheid;User362pskurs.local;13.09.1988
-363;User363;Köln;User363pskurs.local;17.03.1990
+363;User363;KÃ¶ln;User363pskurs.local;17.03.1990
 364;User364;Mannheim;User364pskurs.local;09.06.1988
 365;User365;Leipzig;User365pskurs.local;22.04.1983
 366;User366;Salzgitter;User366pskurs.local;18.07.1989
-367;User367;Nürnberg;User367pskurs.local;08.03.1989
-368;User368;Mülheim an der Ruhr;User368pskurs.local;11.11.1990
+367;User367;NÃ¼rnberg;User367pskurs.local;08.03.1989
+368;User368;MÃ¼lheim an der Ruhr;User368pskurs.local;11.11.1990
 369;User369;Hildesheim;User369pskurs.local;04.01.1986
-370;User370;Gütersloh;User370pskurs.local;16.03.1990
+370;User370;GÃ¼tersloh;User370pskurs.local;16.03.1990
 371;User371;Dresden;User371pskurs.local;22.07.1960
-372;User372;Fürth;User372pskurs.local;17.11.1970
+372;User372;FÃ¼rth;User372pskurs.local;17.11.1970
 373;User373;Wiesbaden;User373pskurs.local;22.04.1979
-374;User374;Münster;User374pskurs.local;17.10.1982
+374;User374;MÃ¼nster;User374pskurs.local;17.10.1982
 375;User375;Cottbus;User375pskurs.local;23.07.1969
 376;User376;Kassel;User376pskurs.local;04.09.1964
-377;User377;Köln;User377pskurs.local;30.07.1966
+377;User377;KÃ¶ln;User377pskurs.local;30.07.1966
 378;User378;Mainz;User378pskurs.local;02.09.1969
 379;User379;Bergisch Gladbach;User379pskurs.local;02.02.1975
 380;User380;Leipzig;User380pskurs.local;20.08.1977
@@ -388,18 +388,18 @@ Id;Username;City;EMail;Birthday
 387;User387;Krefeld;User387pskurs.local;14.09.1981
 388;User388;Ingolstadt;User388pskurs.local;21.01.1984
 389;User389;Bonn;User389pskurs.local;14.10.1963
-390;User390;Düsseldorf;User390pskurs.local;15.12.1966
+390;User390;DÃ¼sseldorf;User390pskurs.local;15.12.1966
 391;User391;Salzgitter;User391pskurs.local;12.11.1976
 392;User392;Koblenz;User392pskurs.local;18.11.1968
 393;User393;Krefeld;User393pskurs.local;26.04.1968
 394;User394;Braunschweig;User394pskurs.local;16.07.1972
 395;User395;Oldenburg (Oldb);User395pskurs.local;13.07.1970
 396;User396;Koblenz;User396pskurs.local;08.11.1972
-397;User397;München;User397pskurs.local;24.04.1964
+397;User397;MÃ¼nchen;User397pskurs.local;24.04.1964
 398;User398;Salzgitter;User398pskurs.local;16.01.1989
-399;User399;Lübeck;User399pskurs.local;22.11.1977
-400;User400;Würzburg;User400pskurs.local;04.02.1962
-401;User401;Mönchen­gladbach;User401pskurs.local;08.08.1983
+399;User399;LÃ¼beck;User399pskurs.local;22.11.1977
+400;User400;WÃ¼rzburg;User400pskurs.local;04.02.1962
+401;User401;MÃ¶nchenÂ­gladbach;User401pskurs.local;08.08.1983
 402;User402;Magdeburg;User402pskurs.local;19.08.1983
 403;User403;Duisburg;User403pskurs.local;15.04.1967
 404;User404;Hagen;User404pskurs.local;09.11.1964
@@ -413,10 +413,10 @@ Id;Username;City;EMail;Birthday
 412;User412;Trier;User412pskurs.local;17.02.1970
 413;User413;Freiburg im Breisgau;User413pskurs.local;18.03.1960
 414;User414;Ingolstadt;User414pskurs.local;25.10.1986
-415;User415;Münster;User415pskurs.local;18.02.1981
-416;User416;Köln;User416pskurs.local;12.02.1977
-417;User417;Mönchen­gladbach;User417pskurs.local;21.05.1964
-418;User418;Düsseldorf;User418pskurs.local;16.06.1965
+415;User415;MÃ¼nster;User415pskurs.local;18.02.1981
+416;User416;KÃ¶ln;User416pskurs.local;12.02.1977
+417;User417;MÃ¶nchenÂ­gladbach;User417pskurs.local;21.05.1964
+418;User418;DÃ¼sseldorf;User418pskurs.local;16.06.1965
 419;User419;Augsburg;User419pskurs.local;03.03.1967
 420;User420;Bergisch Gladbach;User420pskurs.local;29.03.1986
 421;User421;Augsburg;User421pskurs.local;01.02.1968
@@ -430,7 +430,7 @@ Id;Username;City;EMail;Birthday
 429;User429;Wolfsburg;User429pskurs.local;28.12.1970
 430;User430;Oldenburg (Oldb);User430pskurs.local;02.11.1964
 431;User431;Heidelberg;User431pskurs.local;08.07.1970
-432;User432;Fürth;User432pskurs.local;10.03.1968
+432;User432;FÃ¼rth;User432pskurs.local;10.03.1968
 433;User433;Neuss;User433pskurs.local;03.04.1978
 434;User434;Offenbach am Main;User434pskurs.local;13.12.1982
 435;User435;Heidelberg;User435pskurs.local;03.08.1973
@@ -441,7 +441,7 @@ Id;Username;City;EMail;Birthday
 440;User440;Jena;User440pskurs.local;05.04.1981
 441;User441;Cottbus;User441pskurs.local;29.07.1964
 442;User442;Cottbus;User442pskurs.local;13.02.1969
-443;User443;München;User443pskurs.local;12.09.1984
+443;User443;MÃ¼nchen;User443pskurs.local;12.09.1984
 444;User444;Hannover;User444pskurs.local;21.04.1981
 445;User445;Recklinghausen;User445pskurs.local;15.08.1989
 446;User446;Halle (Saale);User446pskurs.local;10.04.1973
@@ -450,21 +450,21 @@ Id;Username;City;EMail;Birthday
 449;User449;Trier;User449pskurs.local;11.10.1989
 450;User450;Trier;User450pskurs.local;12.09.1987
 451;User451;Chemnitz;User451pskurs.local;08.12.1983
-452;User452;Würzburg;User452pskurs.local;29.04.1976
+452;User452;WÃ¼rzburg;User452pskurs.local;29.04.1976
 453;User453;Chemnitz;User453pskurs.local;22.03.1965
 454;User454;Koblenz;User454pskurs.local;09.02.1974
 455;User455;Salzgitter;User455pskurs.local;01.02.1974
 456;User456;Heidelberg;User456pskurs.local;13.02.1970
 457;User457;Koblenz;User457pskurs.local;20.07.1969
-458;User458;Göttingen;User458pskurs.local;19.09.1988
+458;User458;GÃ¶ttingen;User458pskurs.local;19.09.1988
 459;User459;Paderborn;User459pskurs.local;26.08.1979
 460;User460;Neuss;User460pskurs.local;15.06.1975
 461;User461;Bottrop;User461pskurs.local;11.11.1986
 462;User462;Gelsenkirchen;User462pskurs.local;06.03.1966
 463;User463;Hamm;User463pskurs.local;12.11.1962
 464;User464;Ludwigshafen am Rhein;User464pskurs.local;28.12.1979
-465;User465;Nürnberg;User465pskurs.local;23.02.1962
-466;User466;Osnabrück;User466pskurs.local;14.04.1990
+465;User465;NÃ¼rnberg;User465pskurs.local;23.02.1962
+466;User466;OsnabrÃ¼ck;User466pskurs.local;14.04.1990
 467;User467;Bremen;User467pskurs.local;13.07.1967
 468;User468;Leipzig;User468pskurs.local;17.09.1967
 469;User469;Mannheim;User469pskurs.local;17.07.1967
@@ -479,20 +479,20 @@ Id;Username;City;EMail;Birthday
 478;User478;Hannover;User478pskurs.local;23.03.1974
 479;User479;Augsburg;User479pskurs.local;31.01.1989
 480;User480;Bremen;User480pskurs.local;23.04.1971
-481;User481;Fürth;User481pskurs.local;23.07.1990
+481;User481;FÃ¼rth;User481pskurs.local;23.07.1990
 482;User482;Bochum;User482pskurs.local;20.12.1973
 483;User483;Trier;User483pskurs.local;16.05.1985
 484;User484;Hamm;User484pskurs.local;11.05.1982
-485;User485;Würzburg;User485pskurs.local;14.04.1974
+485;User485;WÃ¼rzburg;User485pskurs.local;14.04.1974
 486;User486;Hamburg;User486pskurs.local;17.07.1990
 487;User487;Potsdam;User487pskurs.local;22.12.1982
-488;User488;Würzburg;User488pskurs.local;01.11.1990
+488;User488;WÃ¼rzburg;User488pskurs.local;01.11.1990
 489;User489;Pforzheim;User489pskurs.local;16.03.1989
 490;User490;Herne;User490pskurs.local;20.07.1981
 491;User491;Kiel;User491pskurs.local;25.09.1960
 492;User492;Reutlingen;User492pskurs.local;05.04.1982
 493;User493;Hannover;User493pskurs.local;30.05.1974
-494;User494;Osnabrück;User494pskurs.local;03.06.1960
+494;User494;OsnabrÃ¼ck;User494pskurs.local;03.06.1960
 495;User495;Trier;User495pskurs.local;05.01.1979
 496;User496;Dortmund;User496pskurs.local;07.12.1977
 497;User497;Gelsenkirchen;User497pskurs.local;09.10.1983
@@ -502,10 +502,10 @@ Id;Username;City;EMail;Birthday
 501;User501;Freiburg im Breisgau;User501pskurs.local;28.01.1964
 502;User502;Rostock;User502pskurs.local;26.11.1988
 503;User503;Gelsenkirchen;User503pskurs.local;21.05.1984
-504;User504;Mülheim an der Ruhr;User504pskurs.local;25.01.1974
+504;User504;MÃ¼lheim an der Ruhr;User504pskurs.local;25.01.1974
 505;User505;Ulm;User505pskurs.local;17.01.1984
-506;User506;Würzburg;User506pskurs.local;23.11.1990
-507;User507;Mülheim an der Ruhr;User507pskurs.local;20.04.1988
+506;User506;WÃ¼rzburg;User506pskurs.local;23.11.1990
+507;User507;MÃ¼lheim an der Ruhr;User507pskurs.local;20.04.1988
 508;User508;Bochum;User508pskurs.local;16.12.1980
 509;User509;Aachen;User509pskurs.local;14.10.1967
 510;User510;Hamburg;User510pskurs.local;27.02.1968
@@ -517,9 +517,9 @@ Id;Username;City;EMail;Birthday
 516;User516;Ingolstadt;User516pskurs.local;23.05.1960
 517;User517;Reutlingen;User517pskurs.local;13.08.1984
 518;User518;Erfurt;User518pskurs.local;10.03.1961
-519;User519;Münster;User519pskurs.local;14.08.1962
+519;User519;MÃ¼nster;User519pskurs.local;14.08.1962
 520;User520;Darmstadt;User520pskurs.local;12.10.1968
-521;User521;Mülheim an der Ruhr;User521pskurs.local;16.07.1966
+521;User521;MÃ¼lheim an der Ruhr;User521pskurs.local;16.07.1966
 522;User522;Potsdam;User522pskurs.local;24.05.1966
 523;User523;Koblenz;User523pskurs.local;02.02.1983
 524;User524;Paderborn;User524pskurs.local;22.03.1969
@@ -527,12 +527,12 @@ Id;Username;City;EMail;Birthday
 526;User526;Gelsenkirchen;User526pskurs.local;21.06.1961
 527;User527;Leipzig;User527pskurs.local;18.09.1983
 528;User528;Leverkusen;User528pskurs.local;15.04.1963
-529;User529;Saarbrücken;User529pskurs.local;10.01.1971
-530;User530;Saarbrücken;User530pskurs.local;24.05.1990
+529;User529;SaarbrÃ¼cken;User529pskurs.local;10.01.1971
+530;User530;SaarbrÃ¼cken;User530pskurs.local;24.05.1990
 531;User531;Erfurt;User531pskurs.local;27.05.1977
 532;User532;Recklinghausen;User532pskurs.local;02.12.1976
-533;User533;Fürth;User533pskurs.local;25.10.1962
-534;User534;Lübeck;User534pskurs.local;28.08.1968
+533;User533;FÃ¼rth;User533pskurs.local;25.10.1962
+534;User534;LÃ¼beck;User534pskurs.local;28.08.1968
 535;User535;Siegen;User535pskurs.local;20.12.1969
 536;User536;Hannover;User536pskurs.local;11.11.1982
 537;User537;Solingen;User537pskurs.local;18.01.1975
@@ -544,11 +544,11 @@ Id;Username;City;EMail;Birthday
 543;User543;Bottrop;User543pskurs.local;08.01.1971
 544;User544;Bottrop;User544pskurs.local;13.12.1978
 545;User545;Trier;User545pskurs.local;30.06.1966
-546;User546;Würzburg;User546pskurs.local;20.01.1967
+546;User546;WÃ¼rzburg;User546pskurs.local;20.01.1967
 547;User547;Leipzig;User547pskurs.local;20.03.1962
 548;User548;Frankfurt am Main;User548pskurs.local;02.10.1968
 549;User549;Hildesheim;User549pskurs.local;26.12.1974
-550;User550;Mönchen­gladbach;User550pskurs.local;29.04.1966
+550;User550;MÃ¶nchenÂ­gladbach;User550pskurs.local;29.04.1966
 551;User551;Ludwigshafen am Rhein;User551pskurs.local;02.04.1974
 552;User552;Mainz;User552pskurs.local;27.04.1972
 553;User553;Braunschweig;User553pskurs.local;01.07.1976
@@ -559,23 +559,23 @@ Id;Username;City;EMail;Birthday
 558;User558;Pforzheim;User558pskurs.local;22.02.1987
 559;User559;Wiesbaden;User559pskurs.local;18.04.1986
 560;User560;Regensburg;User560pskurs.local;06.01.1987
-561;User561;Lübeck;User561pskurs.local;05.03.1977
+561;User561;LÃ¼beck;User561pskurs.local;05.03.1977
 562;User562;Mannheim;User562pskurs.local;16.11.1975
 563;User563;Freiburg im Breisgau;User563pskurs.local;16.01.1976
 564;User564;Stuttgart;User564pskurs.local;18.06.1973
-565;User565;Münster;User565pskurs.local;14.03.1961
+565;User565;MÃ¼nster;User565pskurs.local;14.03.1961
 566;User566;Moers;User566pskurs.local;10.05.1969
-567;User567;Düsseldorf;User567pskurs.local;10.11.1965
+567;User567;DÃ¼sseldorf;User567pskurs.local;10.11.1965
 568;User568;Bonn;User568pskurs.local;27.12.1968
 569;User569;Solingen;User569pskurs.local;02.03.1970
-570;User570;Lübeck;User570pskurs.local;16.08.1969
+570;User570;LÃ¼beck;User570pskurs.local;16.08.1969
 571;User571;Neuss;User571pskurs.local;01.11.1966
-572;User572;Würzburg;User572pskurs.local;15.09.1982
+572;User572;WÃ¼rzburg;User572pskurs.local;15.09.1982
 573;User573;Kassel;User573pskurs.local;29.10.1972
 574;User574;Paderborn;User574pskurs.local;11.08.1972
 575;User575;Darmstadt;User575pskurs.local;12.10.1980
 576;User576;Koblenz;User576pskurs.local;05.12.1989
-577;User577;Nürnberg;User577pskurs.local;21.09.1965
+577;User577;NÃ¼rnberg;User577pskurs.local;21.09.1965
 578;User578;Reutlingen;User578pskurs.local;27.08.1976
 579;User579;Berlin;User579pskurs.local;11.03.1967
 580;User580;Paderborn;User580pskurs.local;12.01.1964
@@ -584,7 +584,7 @@ Id;Username;City;EMail;Birthday
 583;User583;Magdeburg;User583pskurs.local;15.01.1961
 584;User584;Bremen;User584pskurs.local;31.08.1961
 585;User585;Solingen;User585pskurs.local;26.11.1970
-586;User586;Düsseldorf;User586pskurs.local;26.12.1979
+586;User586;DÃ¼sseldorf;User586pskurs.local;26.12.1979
 587;User587;Bonn;User587pskurs.local;22.04.1973
 588;User588;Duisburg;User588pskurs.local;31.03.1983
 589;User589;Koblenz;User589pskurs.local;17.01.1987
@@ -594,31 +594,31 @@ Id;Username;City;EMail;Birthday
 593;User593;Erlangen;User593pskurs.local;04.10.1963
 594;User594;Heidelberg;User594pskurs.local;16.07.1985
 595;User595;Essen;User595pskurs.local;06.02.1981
-596;User596;Osnabrück;User596pskurs.local;06.09.1961
+596;User596;OsnabrÃ¼ck;User596pskurs.local;06.09.1961
 597;User597;Berlin;User597pskurs.local;15.12.1968
 598;User598;Oberhausen;User598pskurs.local;16.10.1967
 599;User599;Pforzheim;User599pskurs.local;17.11.1987
 600;User600;Berlin;User600pskurs.local;03.07.1977
 601;User601;Karlsruhe;User601pskurs.local;22.04.1961
 602;User602;Leipzig;User602pskurs.local;29.09.1964
-603;User603;Bremer­haven;User603pskurs.local;28.10.1979
+603;User603;BremerÂ­haven;User603pskurs.local;28.10.1979
 604;User604;Dortmund;User604pskurs.local;05.01.1976
 605;User605;Gelsenkirchen;User605pskurs.local;21.04.1964
 606;User606;Siegen;User606pskurs.local;18.08.1990
-607;User607;Gütersloh;User607pskurs.local;05.05.1979
+607;User607;GÃ¼tersloh;User607pskurs.local;05.05.1979
 608;User608;Freiburg im Breisgau;User608pskurs.local;03.07.1970
-609;User609;Göttingen;User609pskurs.local;04.04.1984
+609;User609;GÃ¶ttingen;User609pskurs.local;04.04.1984
 610;User610;Wolfsburg;User610pskurs.local;26.04.1971
 611;User611;Remscheid;User611pskurs.local;11.11.1975
 612;User612;Dresden;User612pskurs.local;30.01.1964
-613;User613;Osnabrück;User613pskurs.local;15.05.1966
+613;User613;OsnabrÃ¼ck;User613pskurs.local;15.05.1966
 614;User614;Aachen;User614pskurs.local;30.09.1988
 615;User615;Leipzig;User615pskurs.local;04.06.1981
 616;User616;Frankfurt am Main;User616pskurs.local;16.11.1979
 617;User617;Karlsruhe;User617pskurs.local;21.06.1967
 618;User618;Herne;User618pskurs.local;18.02.1968
 619;User619;Gelsenkirchen;User619pskurs.local;14.08.1985
-620;User620;Lübeck;User620pskurs.local;01.02.1964
+620;User620;LÃ¼beck;User620pskurs.local;01.02.1964
 621;User621;Gelsenkirchen;User621pskurs.local;07.12.1974
 622;User622;Dortmund;User622pskurs.local;21.11.1989
 623;User623;Frankfurt am Main;User623pskurs.local;06.10.1967
@@ -626,10 +626,10 @@ Id;Username;City;EMail;Birthday
 625;User625;Gelsenkirchen;User625pskurs.local;25.10.1966
 626;User626;Oldenburg (Oldb);User626pskurs.local;28.08.1960
 627;User627;Darmstadt;User627pskurs.local;07.11.1983
-628;User628;München;User628pskurs.local;28.11.1964
+628;User628;MÃ¼nchen;User628pskurs.local;28.11.1964
 629;User629;Bremen;User629pskurs.local;01.10.1961
-630;User630;Düsseldorf;User630pskurs.local;19.03.1987
-631;User631;Nürnberg;User631pskurs.local;07.01.1965
+630;User630;DÃ¼sseldorf;User630pskurs.local;19.03.1987
+631;User631;NÃ¼rnberg;User631pskurs.local;07.01.1965
 632;User632;Kassel;User632pskurs.local;09.11.1962
 633;User633;Siegen;User633pskurs.local;20.01.1972
 634;User634;Augsburg;User634pskurs.local;12.11.1978
@@ -647,10 +647,10 @@ Id;Username;City;EMail;Birthday
 646;User646;Bottrop;User646pskurs.local;21.11.1979
 647;User647;Hamm;User647pskurs.local;24.11.1961
 648;User648;Magdeburg;User648pskurs.local;12.06.1978
-649;User649;Osnabrück;User649pskurs.local;14.05.1963
+649;User649;OsnabrÃ¼ck;User649pskurs.local;14.05.1963
 650;User650;Erlangen;User650pskurs.local;01.12.1968
 651;User651;Bielefeld;User651pskurs.local;07.01.1987
-652;User652;Mönchen­gladbach;User652pskurs.local;10.07.1973
+652;User652;MÃ¶nchenÂ­gladbach;User652pskurs.local;10.07.1973
 653;User653;Wuppertal;User653pskurs.local;21.06.1977
 654;User654;Ulm;User654pskurs.local;03.06.1972
 655;User655;Moers;User655pskurs.local;15.01.1962
@@ -674,11 +674,11 @@ Id;Username;City;EMail;Birthday
 673;User673;Bremen;User673pskurs.local;17.02.1980
 674;User674;Kassel;User674pskurs.local;12.04.1963
 675;User675;Paderborn;User675pskurs.local;13.08.1961
-676;User676;Köln;User676pskurs.local;25.08.1986
+676;User676;KÃ¶ln;User676pskurs.local;25.08.1986
 677;User677;Oberhausen;User677pskurs.local;27.11.1975
 678;User678;Leverkusen;User678pskurs.local;06.12.1965
-679;User679;Köln;User679pskurs.local;10.10.1977
-680;User680;Nürnberg;User680pskurs.local;04.04.1961
+679;User679;KÃ¶ln;User679pskurs.local;10.10.1977
+680;User680;NÃ¼rnberg;User680pskurs.local;04.04.1961
 681;User681;Recklinghausen;User681pskurs.local;06.01.1970
 682;User682;Neuss;User682pskurs.local;30.09.1983
 683;User683;Freiburg im Breisgau;User683pskurs.local;11.03.1972
@@ -701,11 +701,11 @@ Id;Username;City;EMail;Birthday
 700;User700;Erlangen;User700pskurs.local;20.06.1984
 701;User701;Remscheid;User701pskurs.local;02.07.1961
 702;User702;Salzgitter;User702pskurs.local;16.05.1964
-703;User703;Mülheim an der Ruhr;User703pskurs.local;28.11.1981
+703;User703;MÃ¼lheim an der Ruhr;User703pskurs.local;28.11.1981
 704;User704;Essen;User704pskurs.local;16.01.1988
 705;User705;Ulm;User705pskurs.local;12.07.1975
-706;User706;Münster;User706pskurs.local;22.08.1968
-707;User707;Mönchen­gladbach;User707pskurs.local;19.01.1964
+706;User706;MÃ¼nster;User706pskurs.local;22.08.1968
+707;User707;MÃ¶nchenÂ­gladbach;User707pskurs.local;19.01.1964
 708;User708;Remscheid;User708pskurs.local;18.03.1986
 709;User709;Augsburg;User709pskurs.local;01.05.1982
 710;User710;Krefeld;User710pskurs.local;12.07.1986
@@ -714,7 +714,7 @@ Id;Username;City;EMail;Birthday
 713;User713;Pforzheim;User713pskurs.local;21.09.1972
 714;User714;Erfurt;User714pskurs.local;24.01.1985
 715;User715;Krefeld;User715pskurs.local;14.01.1965
-716;User716;Göttingen;User716pskurs.local;29.01.1975
+716;User716;GÃ¶ttingen;User716pskurs.local;29.01.1975
 717;User717;Oldenburg (Oldb);User717pskurs.local;25.06.1979
 718;User718;Freiburg im Breisgau;User718pskurs.local;02.11.1986
 719;User719;Ulm;User719pskurs.local;29.10.1982
@@ -722,18 +722,18 @@ Id;Username;City;EMail;Birthday
 721;User721;Rostock;User721pskurs.local;03.05.1968
 722;User722;Braunschweig;User722pskurs.local;02.06.1960
 723;User723;Bremen;User723pskurs.local;07.05.1967
-724;User724;Köln;User724pskurs.local;24.07.1967
-725;User725;Düsseldorf;User725pskurs.local;15.11.1960
-726;User726;Göttingen;User726pskurs.local;09.12.1966
+724;User724;KÃ¶ln;User724pskurs.local;24.07.1967
+725;User725;DÃ¼sseldorf;User725pskurs.local;15.11.1960
+726;User726;GÃ¶ttingen;User726pskurs.local;09.12.1966
 727;User727;Hannover;User727pskurs.local;01.11.1986
-728;User728;München;User728pskurs.local;06.06.1961
+728;User728;MÃ¼nchen;User728pskurs.local;06.06.1961
 729;User729;Dortmund;User729pskurs.local;23.01.1977
-730;User730;Göttingen;User730pskurs.local;12.04.1967
+730;User730;GÃ¶ttingen;User730pskurs.local;12.04.1967
 731;User731;Berlin;User731pskurs.local;21.04.1986
 732;User732;Frankfurt am Main;User732pskurs.local;21.06.1967
 733;User733;Salzgitter;User733pskurs.local;26.04.1982
 734;User734;Duisburg;User734pskurs.local;14.05.1985
-735;User735;Bremer­haven;User735pskurs.local;11.09.1961
+735;User735;BremerÂ­haven;User735pskurs.local;11.09.1961
 736;User736;Stuttgart;User736pskurs.local;05.09.1990
 737;User737;Bergisch Gladbach;User737pskurs.local;15.09.1965
 738;User738;Halle (Saale);User738pskurs.local;21.10.1972
@@ -741,25 +741,25 @@ Id;Username;City;EMail;Birthday
 740;User740;Herne;User740pskurs.local;03.11.1982
 741;User741;Remscheid;User741pskurs.local;04.11.1983
 742;User742;Augsburg;User742pskurs.local;21.10.1989
-743;User743;Fürth;User743pskurs.local;22.12.1990
+743;User743;FÃ¼rth;User743pskurs.local;22.12.1990
 744;User744;Berlin;User744pskurs.local;09.03.1979
 745;User745;Herne;User745pskurs.local;07.10.1960
-746;User746;Saarbrücken;User746pskurs.local;24.08.1986
+746;User746;SaarbrÃ¼cken;User746pskurs.local;24.08.1986
 747;User747;Wuppertal;User747pskurs.local;27.01.1970
 748;User748;Oldenburg (Oldb);User748pskurs.local;04.08.1960
 749;User749;Erlangen;User749pskurs.local;02.03.1978
 750;User750;Wuppertal;User750pskurs.local;01.04.1969
-751;User751;Nürnberg;User751pskurs.local;27.07.1973
+751;User751;NÃ¼rnberg;User751pskurs.local;27.07.1973
 752;User752;Wiesbaden;User752pskurs.local;25.03.1968
 753;User753;Duisburg;User753pskurs.local;01.05.1961
 754;User754;Ingolstadt;User754pskurs.local;24.12.1964
 755;User755;Leipzig;User755pskurs.local;14.03.1970
-756;User756;Lübeck;User756pskurs.local;15.12.1964
+756;User756;LÃ¼beck;User756pskurs.local;15.12.1964
 757;User757;Bielefeld;User757pskurs.local;14.12.1975
 758;User758;Rostock;User758pskurs.local;22.12.1966
 759;User759;Bielefeld;User759pskurs.local;08.10.1989
 760;User760;Jena;User760pskurs.local;17.02.1968
-761;User761;Lübeck;User761pskurs.local;29.06.1972
+761;User761;LÃ¼beck;User761pskurs.local;29.06.1972
 762;User762;Regensburg;User762pskurs.local;09.10.1988
 763;User763;Hamm;User763pskurs.local;03.02.1971
 764;User764;Koblenz;User764pskurs.local;22.09.1961
@@ -794,14 +794,14 @@ Id;Username;City;EMail;Birthday
 793;User793;Ingolstadt;User793pskurs.local;14.07.1982
 794;User794;Hildesheim;User794pskurs.local;23.11.1961
 795;User795;Potsdam;User795pskurs.local;25.10.1990
-796;User796;Göttingen;User796pskurs.local;11.04.1976
+796;User796;GÃ¶ttingen;User796pskurs.local;11.04.1976
 797;User797;Jena;User797pskurs.local;03.07.1988
 798;User798;Frankfurt am Main;User798pskurs.local;19.06.1961
 799;User799;Bergisch Gladbach;User799pskurs.local;27.09.1981
 800;User800;Dresden;User800pskurs.local;20.02.1963
 801;User801;Bergisch Gladbach;User801pskurs.local;09.11.1971
 802;User802;Paderborn;User802pskurs.local;03.02.1986
-803;User803;Nürnberg;User803pskurs.local;04.04.1983
+803;User803;NÃ¼rnberg;User803pskurs.local;04.04.1983
 804;User804;Oldenburg (Oldb);User804pskurs.local;25.07.1964
 805;User805;Essen;User805pskurs.local;13.06.1990
 806;User806;Hagen;User806pskurs.local;14.05.1962
@@ -809,16 +809,16 @@ Id;Username;City;EMail;Birthday
 808;User808;Heilbronn;User808pskurs.local;08.04.1960
 809;User809;Leipzig;User809pskurs.local;06.04.1989
 810;User810;Wuppertal;User810pskurs.local;15.12.1989
-811;User811;Mönchen­gladbach;User811pskurs.local;04.03.1961
+811;User811;MÃ¶nchenÂ­gladbach;User811pskurs.local;04.03.1961
 812;User812;Erfurt;User812pskurs.local;31.08.1980
 813;User813;Bochum;User813pskurs.local;06.01.1962
-814;User814;Saarbrücken;User814pskurs.local;08.05.1987
+814;User814;SaarbrÃ¼cken;User814pskurs.local;08.05.1987
 815;User815;Karlsruhe;User815pskurs.local;28.08.1983
 816;User816;Karlsruhe;User816pskurs.local;12.06.1989
 817;User817;Oberhausen;User817pskurs.local;03.01.1964
 818;User818;Kassel;User818pskurs.local;20.02.1979
 819;User819;Braunschweig;User819pskurs.local;30.06.1977
-820;User820;Göttingen;User820pskurs.local;25.03.1980
+820;User820;GÃ¶ttingen;User820pskurs.local;25.03.1980
 821;User821;Wolfsburg;User821pskurs.local;09.10.1988
 822;User822;Bremen;User822pskurs.local;13.05.1989
 823;User823;Chemnitz;User823pskurs.local;02.08.1978
@@ -832,9 +832,9 @@ Id;Username;City;EMail;Birthday
 831;User831;Ulm;User831pskurs.local;26.11.1968
 832;User832;Reutlingen;User832pskurs.local;11.05.1967
 833;User833;Ulm;User833pskurs.local;18.07.1960
-834;User834;Gütersloh;User834pskurs.local;29.09.1990
+834;User834;GÃ¼tersloh;User834pskurs.local;29.09.1990
 835;User835;Essen;User835pskurs.local;07.10.1963
-836;User836;Köln;User836pskurs.local;09.06.1978
+836;User836;KÃ¶ln;User836pskurs.local;09.06.1978
 837;User837;Heilbronn;User837pskurs.local;14.12.1984
 838;User838;Stuttgart;User838pskurs.local;13.10.1971
 839;User839;Jena;User839pskurs.local;19.01.1966
@@ -843,8 +843,8 @@ Id;Username;City;EMail;Birthday
 842;User842;Oldenburg (Oldb);User842pskurs.local;07.11.1984
 843;User843;Erfurt;User843pskurs.local;10.06.1977
 844;User844;Bremen;User844pskurs.local;16.09.1989
-845;User845;Lübeck;User845pskurs.local;05.09.1964
-846;User846;Gütersloh;User846pskurs.local;23.05.1982
+845;User845;LÃ¼beck;User845pskurs.local;05.09.1964
+846;User846;GÃ¼tersloh;User846pskurs.local;23.05.1982
 847;User847;Erfurt;User847pskurs.local;08.04.1963
 848;User848;Krefeld;User848pskurs.local;03.06.1987
 849;User849;Chemnitz;User849pskurs.local;12.09.1979
@@ -853,11 +853,11 @@ Id;Username;City;EMail;Birthday
 852;User852;Remscheid;User852pskurs.local;12.12.1980
 853;User853;Braunschweig;User853pskurs.local;14.03.1990
 854;User854;Wiesbaden;User854pskurs.local;31.12.1961
-855;User855;Saarbrücken;User855pskurs.local;23.05.1972
+855;User855;SaarbrÃ¼cken;User855pskurs.local;23.05.1972
 856;User856;Berlin;User856pskurs.local;04.07.1970
 857;User857;Moers;User857pskurs.local;10.07.1968
 858;User858;Moers;User858pskurs.local;17.02.1982
-859;User859;Saarbrücken;User859pskurs.local;25.01.1985
+859;User859;SaarbrÃ¼cken;User859pskurs.local;25.01.1985
 860;User860;Hamburg;User860pskurs.local;25.07.1977
 861;User861;Berlin;User861pskurs.local;16.12.1964
 862;User862;Recklinghausen;User862pskurs.local;24.06.1965
@@ -873,21 +873,21 @@ Id;Username;City;EMail;Birthday
 872;User872;Duisburg;User872pskurs.local;25.12.1979
 873;User873;Regensburg;User873pskurs.local;22.06.1964
 874;User874;Darmstadt;User874pskurs.local;20.04.1975
-875;User875;Fürth;User875pskurs.local;15.09.1980
+875;User875;FÃ¼rth;User875pskurs.local;15.09.1980
 876;User876;Hamburg;User876pskurs.local;15.03.1978
 877;User877;Hagen;User877pskurs.local;02.10.1979
-878;User878;Würzburg;User878pskurs.local;31.03.1960
+878;User878;WÃ¼rzburg;User878pskurs.local;31.03.1960
 879;User879;Ludwigshafen am Rhein;User879pskurs.local;07.08.1975
 880;User880;Hannover;User880pskurs.local;05.12.1979
 881;User881;Reutlingen;User881pskurs.local;05.05.1974
 882;User882;Paderborn;User882pskurs.local;17.12.1982
 883;User883;Kassel;User883pskurs.local;17.01.1978
-884;User884;Köln;User884pskurs.local;04.06.1963
+884;User884;KÃ¶ln;User884pskurs.local;04.06.1963
 885;User885;Magdeburg;User885pskurs.local;04.09.1985
 886;User886;Karlsruhe;User886pskurs.local;30.08.1979
-887;User887;Saarbrücken;User887pskurs.local;16.11.1990
+887;User887;SaarbrÃ¼cken;User887pskurs.local;16.11.1990
 888;User888;Erlangen;User888pskurs.local;13.09.1963
-889;User889;Köln;User889pskurs.local;07.10.1961
+889;User889;KÃ¶ln;User889pskurs.local;07.10.1961
 890;User890;Oldenburg (Oldb);User890pskurs.local;23.05.1967
 891;User891;Recklinghausen;User891pskurs.local;02.01.1963
 892;User892;Potsdam;User892pskurs.local;27.12.1985
@@ -898,24 +898,24 @@ Id;Username;City;EMail;Birthday
 897;User897;Trier;User897pskurs.local;10.09.1963
 898;User898;Oberhausen;User898pskurs.local;19.08.1986
 899;User899;Bielefeld;User899pskurs.local;07.10.1983
-900;User900;Lübeck;User900pskurs.local;19.04.1966
+900;User900;LÃ¼beck;User900pskurs.local;19.04.1966
 901;User901;Oberhausen;User901pskurs.local;16.03.1982
 902;User902;Mainz;User902pskurs.local;18.08.1960
 903;User903;Erfurt;User903pskurs.local;15.05.1966
 904;User904;Erfurt;User904pskurs.local;23.10.1985
 905;User905;Oldenburg (Oldb);User905pskurs.local;12.07.1984
-906;User906;Fürth;User906pskurs.local;06.01.1977
+906;User906;FÃ¼rth;User906pskurs.local;06.01.1977
 907;User907;Bergisch Gladbach;User907pskurs.local;04.04.1971
-908;User908;Würzburg;User908pskurs.local;06.09.1988
+908;User908;WÃ¼rzburg;User908pskurs.local;06.09.1988
 909;User909;Bergisch Gladbach;User909pskurs.local;14.01.1988
 910;User910;Darmstadt;User910pskurs.local;14.02.1983
 911;User911;Salzgitter;User911pskurs.local;18.10.1975
 912;User912;Neuss;User912pskurs.local;25.08.1971
 913;User913;Berlin;User913pskurs.local;11.02.1962
-914;User914;Würzburg;User914pskurs.local;19.01.1968
+914;User914;WÃ¼rzburg;User914pskurs.local;19.01.1968
 915;User915;Bochum;User915pskurs.local;27.11.1990
-916;User916;Mülheim an der Ruhr;User916pskurs.local;09.04.1970
-917;User917;Münster;User917pskurs.local;25.07.1960
+916;User916;MÃ¼lheim an der Ruhr;User916pskurs.local;09.04.1970
+917;User917;MÃ¼nster;User917pskurs.local;25.07.1960
 918;User918;Mannheim;User918pskurs.local;14.08.1965
 919;User919;Salzgitter;User919pskurs.local;11.05.1986
 920;User920;Hamburg;User920pskurs.local;12.08.1960
@@ -924,7 +924,7 @@ Id;Username;City;EMail;Birthday
 923;User923;Chemnitz;User923pskurs.local;31.08.1973
 924;User924;Solingen;User924pskurs.local;31.05.1962
 925;User925;Leipzig;User925pskurs.local;21.03.1961
-926;User926;Mönchen­gladbach;User926pskurs.local;07.03.1964
+926;User926;MÃ¶nchenÂ­gladbach;User926pskurs.local;07.03.1964
 927;User927;Cottbus;User927pskurs.local;29.11.1989
 928;User928;Ulm;User928pskurs.local;20.08.1962
 929;User929;Kiel;User929pskurs.local;03.03.1985
@@ -935,23 +935,23 @@ Id;Username;City;EMail;Birthday
 934;User934;Dortmund;User934pskurs.local;16.11.1960
 935;User935;Moers;User935pskurs.local;31.07.1965
 936;User936;Bochum;User936pskurs.local;15.08.1987
-937;User937;Gütersloh;User937pskurs.local;10.04.1968
+937;User937;GÃ¼tersloh;User937pskurs.local;10.04.1968
 938;User938;Regensburg;User938pskurs.local;26.02.1975
 939;User939;Siegen;User939pskurs.local;10.02.1973
-940;User940;Würzburg;User940pskurs.local;12.10.1979
+940;User940;WÃ¼rzburg;User940pskurs.local;12.10.1979
 941;User941;Ingolstadt;User941pskurs.local;12.09.1966
 942;User942;Paderborn;User942pskurs.local;30.11.1975
 943;User943;Bielefeld;User943pskurs.local;19.12.1973
 944;User944;Bremen;User944pskurs.local;11.08.1981
 945;User945;Herne;User945pskurs.local;18.01.1964
 946;User946;Jena;User946pskurs.local;25.07.1970
-947;User947;Lübeck;User947pskurs.local;06.09.1989
+947;User947;LÃ¼beck;User947pskurs.local;06.09.1989
 948;User948;Offenbach am Main;User948pskurs.local;18.08.1965
 949;User949;Potsdam;User949pskurs.local;09.11.1985
 950;User950;Darmstadt;User950pskurs.local;24.02.1969
 951;User951;Heilbronn;User951pskurs.local;30.07.1966
 952;User952;Siegen;User952pskurs.local;26.06.1975
-953;User953;Mönchen­gladbach;User953pskurs.local;19.12.1986
+953;User953;MÃ¶nchenÂ­gladbach;User953pskurs.local;19.12.1986
 954;User954;Cottbus;User954pskurs.local;31.05.1986
 955;User955;Jena;User955pskurs.local;27.11.1972
 956;User956;Leipzig;User956pskurs.local;20.05.1963
@@ -961,7 +961,7 @@ Id;Username;City;EMail;Birthday
 960;User960;Cottbus;User960pskurs.local;13.01.1962
 961;User961;Neuss;User961pskurs.local;16.01.1985
 962;User962;Solingen;User962pskurs.local;17.11.1989
-963;User963;Bremer­haven;User963pskurs.local;22.01.1981
+963;User963;BremerÂ­haven;User963pskurs.local;22.01.1981
 964;User964;Ludwigshafen am Rhein;User964pskurs.local;09.06.1966
 965;User965;Jena;User965pskurs.local;03.06.1973
 966;User966;Offenbach am Main;User966pskurs.local;27.10.1968
@@ -971,13 +971,13 @@ Id;Username;City;EMail;Birthday
 970;User970;Hamm;User970pskurs.local;17.05.1978
 971;User971;Leverkusen;User971pskurs.local;15.02.1973
 972;User972;Braunschweig;User972pskurs.local;12.07.1984
-973;User973;Mülheim an der Ruhr;User973pskurs.local;25.01.1987
+973;User973;MÃ¼lheim an der Ruhr;User973pskurs.local;25.01.1987
 974;User974;Wiesbaden;User974pskurs.local;21.01.1979
 975;User975;Potsdam;User975pskurs.local;25.07.1966
 976;User976;Braunschweig;User976pskurs.local;02.10.1979
 977;User977;Braunschweig;User977pskurs.local;01.10.1973
 978;User978;Ulm;User978pskurs.local;20.10.1988
-979;User979;Mülheim an der Ruhr;User979pskurs.local;15.11.1983
+979;User979;MÃ¼lheim an der Ruhr;User979pskurs.local;15.11.1983
 980;User980;Darmstadt;User980pskurs.local;19.10.1974
 981;User981;Augsburg;User981pskurs.local;29.06.1980
 982;User982;Leipzig;User982pskurs.local;04.09.1967
@@ -989,12 +989,12 @@ Id;Username;City;EMail;Birthday
 988;User988;Ulm;User988pskurs.local;16.11.1963
 989;User989;Darmstadt;User989pskurs.local;21.07.1988
 990;User990;Oldenburg (Oldb);User990pskurs.local;04.10.1984
-991;User991;Fürth;User991pskurs.local;23.03.1972
+991;User991;FÃ¼rth;User991pskurs.local;23.03.1972
 992;User992;Potsdam;User992pskurs.local;06.03.1976
 993;User993;Solingen;User993pskurs.local;18.06.1968
 994;User994;Hannover;User994pskurs.local;05.09.1982
 995;User995;Wolfsburg;User995pskurs.local;08.04.1970
-996;User996;Würzburg;User996pskurs.local;29.09.1981
+996;User996;WÃ¼rzburg;User996pskurs.local;29.09.1981
 997;User997;Siegen;User997pskurs.local;12.08.1974
 998;User998;Bielefeld;User998pskurs.local;12.06.1969
 999;User999;Oldenburg (Oldb);User999pskurs.local;07.03.1967

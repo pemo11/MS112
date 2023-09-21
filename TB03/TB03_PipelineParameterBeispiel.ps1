@@ -1,14 +1,14 @@
-<#
+ï»¿<#
  .Synopsis
- Ein Beispiel für den Pipeline-Parameter
+ Ein Beispiel fÃ¼r den Pipeline-Parameter
 #>
 
 <#
 
-# Ein sehr einfaches Beispiel für das generelle Verständnis
+# Ein sehr einfaches Beispiel fÃ¼r das generelle VerstÃ¤ndnis
 
 (1..10) | Where-Object -PipelineVariable z { $_ % 2 -eq 1} | ForEach-Object {
-    "$z wurde geprüft"
+    "$z wurde geprÃ¼ft"
 }
 
 Get-Process -PipelineVariable p | Select-Object StartTime -First 3 | ForEach-Object {
@@ -22,6 +22,6 @@ Get-Process -PipelineVariable p | Select-Object StartTime -First 3 | ForEach-Obj
 Get-ChildItem -Path C:\ -ErrorAction Ignore -Directory -PipelineVariable dir |
   Get-ACL -ErrorAction Ignore | Select-Object -ExpandProperty Access |
   Where-Object { $_.FileSystemRights -eq "FullControl" -and  `
-   $_.IdentityReference -notmatch "Administrator"} | 
-    Select-Object -Property @{name="Benutzerkonto";expression={$_.IdentityReference}}, 
+   $_.IdentityReference -notmatch "Administrator"} |
+    Select-Object -Property @{name="Benutzerkonto";expression={$_.IdentityReference}},
      @{n="Verzeichnis";e={$dir.FullName } }

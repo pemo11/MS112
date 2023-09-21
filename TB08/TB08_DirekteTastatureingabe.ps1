@@ -1,4 +1,4 @@
-<#
+﻿<#
  .Synopsis
  Beispiel für eine direkte Tastatureingabe
  #>
@@ -13,7 +13,7 @@ while ($true)
         {
             break;
         }q
-    } 
+    }
     "Abbruch per 'Q'-Taste..."
      Start-Sleep -Seconds 1
 }

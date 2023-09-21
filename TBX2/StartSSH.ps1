@@ -1,6 +1,6 @@
-<#
+﻿<#
  .SYNOPSIS
- Beispiel für eine SSH-Session 
+ Beispiel für eine SSH-Session
 #>
 
 #requires -version 7.0

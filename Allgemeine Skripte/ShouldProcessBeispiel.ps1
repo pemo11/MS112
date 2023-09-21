@@ -10,8 +10,8 @@ function f1
     $VerboseMode = $PSBoundParameters.ContainsKey("Verbose")
     # Eine Abfrage von WhatIf und Confirm wird nicht gemacht
     # $WhatIfMode = $PSBoundParameters.ContainsKey("WhatIf")
-    Copy-Item -Path $Path -Destination D:\temp -Verbose:$VerboseMode 
-    Copy-Item -Path $Path -Destination $env:temp -Verbose:$VerboseMode 
+    Copy-Item -Path $Path -Destination D:\temp -Verbose:$VerboseMode
+    Copy-Item -Path $Path -Destination $env:temp -Verbose:$VerboseMode
 
 }
 

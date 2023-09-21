@@ -33,7 +33,10 @@ function Get-Speicherkosten
         }
     
         $SpeicherkostenGesamt += [Math]::Round($SummeBytes / 1MB * $SpeicherkostenMB, 3)
-        [PSCustomObject]@{Pfad=$Path;Kosten=$SpeicherkostenGesamt}
+        [PSCustomObject]@{
+            Pfad=$Path
+            Kosten=$SpeicherkostenGesamt
+        }
     }
 
     end {

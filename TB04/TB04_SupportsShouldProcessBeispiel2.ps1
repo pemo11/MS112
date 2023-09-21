@@ -22,7 +22,7 @@ function Remove-Server
 {
     [CmdletBinding(SupportsShouldProcess=$true)]
     param([Server]$Server)
-    if ($PSCmdlet.ShouldProcess("Server $Server löschen?"))
+    if ($PSCmdlet.ShouldProcess("Server $($Server.Name) löschen?"))
     {
         $Serverliste.Remove($Server)
     }

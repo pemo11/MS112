@@ -1,16 +1,16 @@
-<#
+﻿<#
  .SYNOPSIS
  Verschiedene Abfragen in einem HTML-Report zusammenfassen
 #>
 
 # Die 5 Prozesse, die den meisten Arbeitsspeicher belegen
-$Prozesse = Get-Process | Sort-Object WS -Descending | 
+$Prozesse = Get-Process | Sort-Object WS -Descending |
  Select-Object  -Property @{n="Name";e={$_.Name.Substring(0,1).ToUpper() +
   $_.Name.Substring(1)}}, StartTime, WS | Sort-Object StartTime -Descending
 
 $ProzessDaten = $Prozesse | ConvertTo-Html -Fragment
 
-$PCInfo = Get-CimInstance -ClassName Win32_ComputerSystem | 
+$PCInfo = Get-CimInstance -ClassName Win32_ComputerSystem |
  Select-Object TotalPhysicalMemory, Model, Manufacturer | ConvertTo-Html -Fragment
 
 $Head = @"
@@ -39,7 +39,7 @@ $Body += "<div/>"
 
 $PostContent = "Daten erfasst um $(Get-Date -Format t)"
 
-$HtmlPath = Join-Path -Path $PSScriptRoot -ChildPath ("PCReport_{0}.html" -f 
+$HtmlPath = Join-Path -Path $PSScriptRoot -ChildPath ("PCReport_{0}.html" -f
  (Get-Date -Format "MM_dd"))
 $CssPath = Join-Path -Path $PSScriptRoot -ChildPath "PoshKurs.css"
 

@@ -1,4 +1,4 @@
-<#
+﻿<#
  .Synopsis
  Beispiel für das Zusammenspiel von ConfirmImpact und ConfirmPreference
 #>
@@ -22,7 +22,7 @@ $z2 = 3,5,7
 
 # Bei ConfirmPreference=High passiert nichts
 $ConfirmPreference = "High"
-Remove-Number $z1 $z2 
+Remove-Number $z1 $z2
 
 $ConfirmPreference = "Medium"
-Remove-Number $z1 $z2 
+Remove-Number $z1 $z2

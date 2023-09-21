@@ -19,14 +19,14 @@
       Start-Sleep -Seconds 1
       Write-Host "Beende $i"
   }
- 
+
   TuWas -i $_
-} 
+
 
 # Diese Variante lädt die Function über ein Modul
 "`e[34m *** Durchlauf Nr. 2 ***`e[0m"
 $RootPath = $PSScriptRoot
-1..10 | ForEach-Object -Parallel { 
+1..10 | ForEach-Object -Parallel {
   $Psm1Path = Join-Path -Path $using:RootPath -ChildPath "Misc.psm1"
   Import-Module -Name $Psm1Path -Verbose -Force
   TuWas -i $_

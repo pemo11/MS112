@@ -1,4 +1,4 @@
-<#
+﻿<#
  .Synopsis
  Anzeige einer Ordnerauswahl
 #>
@@ -20,7 +20,7 @@ function Get-Ordnerpfad
     $dlg.SelectedPath
 }
 
-$Pfad = Get-Ordnerpfad -Ordnerpfad $env:USERPROFILE\Documents 
+$Pfad = Get-Ordnerpfad -Ordnerpfad $env:USERPROFILE\Documents
 $Pfad
 
 
