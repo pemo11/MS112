@@ -17,4 +17,5 @@
 1..10 | ForEach-Object -Parallel {
   $ThreadId = [AppDomain]::GetCurrentThreadId()
   "Durchlauf Nr. $_ (ThreadId: $ThreadId)"
+  Start-Sleep -Seconds 2
 }

@@ -25,3 +25,4 @@ $t2 = (Measure-Command -Expression {
 
 Write-Verbose ("*** Array-Variante {0:n2}s" -f $t1) -Verbose
 Write-Verbose ("*** Listen-Variante {0:n2}s" -f $t2) -Verbose
+Write-Verbose ("*** Geschwindigkeitsvorteil Liste: {0:n2}x" -f ($t1 / $t2)) -Verbose

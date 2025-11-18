@@ -20,7 +20,7 @@ class SpezialServer : Server
         }
     }
     
-    SpezialServer([String]$Name,[String]$Description): base($ServerName)
+    SpezialServer([String]$Name,[String]$Description): base($Name)
     {
         $this.Id = [Guid]::NewGuid().Guid
         $this.Description = $Description

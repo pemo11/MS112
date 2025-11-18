@@ -5,11 +5,30 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "PowerShell: Launch Current File",
+            "name": "Konfi1",
             "type": "PowerShell",
             "request": "launch",
             "script": "${file}",
-            "cwd": "${file}"
+            "cwd": "${file}",
+            "args": ["pfad1"],
+        },
+        {
+            "name": "Konfi2",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${file}",
+            "cwd": "${file}",
+            "args": ["pfad1","pfad2"],
+        },
+        {
+            "name": "Konfi3",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${file}",
+            "cwd": "${file}",
+            "args": ["pfad1","pfad2", "pfad3"],
         }
+
+
     ]
 }

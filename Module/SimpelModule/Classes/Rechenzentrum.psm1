@@ -24,6 +24,6 @@ class Rechenzentrum
 
     [String]ToString()
     {
-        return "Server: $($this.Server | ForEach-Object { $_.ServerName })"
+        return "Server: $($this.Server | ForEach-Object { $_.Name })"
     }
 }
