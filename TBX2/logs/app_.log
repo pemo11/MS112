@@ -1,0 +1,13 @@
+2025-11-18 20:14:12.3391 |  INFO | PowerShellScript | Anwendung wurde gestartet 
+2025-11-18 20:14:12.3590 | DEBUG | PowerShellScript | Debug-Information: PowerShell Version 7.4.6 
+2025-11-18 20:14:12.3590 |  INFO | PowerShellScript | Verbinde mit Server: WebServer01 
+2025-11-18 20:14:12.3663 |  WARN | PowerShellScript | Keine Netzwerkverbindung gefunden - verwende Offline-Modus 
+2025-11-18 20:14:12.3663 | DEBUG | PowerShellScript | Versuche Datei zu lesen... 
+2025-11-18 20:14:12.3663 | ERROR | PowerShellScript | Fehler beim Lesen der Datei: Cannot find path 'C:\NichtVorhanden.txt' because it does not exist. 
+2025-11-18 20:14:12.3663 | ERROR | PowerShellScript | System.Management.Automation.ItemNotFoundException: Cannot find path 'C:\NichtVorhanden.txt' because it does not exist.
+   at System.Management.Automation.LocationGlobber.ExpandMshGlobPath(String path, Boolean allowNonexistingPaths, PSDriveInfo drive, ContainerCmdletProvider provider, CmdletProviderContext context)
+   at System.Management.Automation.LocationGlobber.ResolveDriveQualifiedPath(String path, CmdletProviderContext context, Boolean allowNonexistingPaths, CmdletProvider& providerInstance)
+   at System.Management.Automation.LocationGlobber.GetGlobbedMonadPathsFromMonadPath(String path, Boolean allowNonexistingPaths, CmdletProviderContext context, CmdletProvider& providerInstance)
+   at System.Management.Automation.PathIntrinsics.GetResolvedPSPathFromPSPath(String path, CmdletProviderContext context)
+   at Microsoft.PowerShell.Commands.ContentCommandBase.ResolvePaths(String[] pathsToResolve, Boolean allowNonexistingPaths, Boolean allowEmptyResult, CmdletProviderContext currentCommandContext) 
+2025-11-18 20:14:12.4145 |  INFO | PowerShellScript | Verarbeitung erfolgreich abgeschlossen 
