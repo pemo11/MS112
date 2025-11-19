@@ -4,5 +4,7 @@ if (-not (Get-PSRepository -Name "PoshRepo" -ErrorAction SilentlyContinue)) {
 }
 Install-Module -Name Poshkurs -Repository PoshRepo -Scope CurrentUser -Force
 $JsonPath = Join-Path -Path "~" -ChildPath "ComputerKonten.json"
-Get-Computerkonten -Anzahl 1000 | ConvertTo-Json -Depth 3 | Out-File -FilePath $JsonPath -Encoding UTF8
+Get-Computerkonten -Anzahl 1000 | Select-Object Name, LastBootTime, @{n="PSComputername";e={hostname}} | 
+ ConvertTo-Json -Depth 3 | Out-File -FilePath $JsonPath -Encoding UTF8
 Write-Host "1000 Computerkonten in Datei $JsonPath gespeichert." -ForegroundColor Green
+Get-Content -Path $JsonPath | ConvertFrom-Json | Select-Object -First 5 | Format-Table -AutoSize
