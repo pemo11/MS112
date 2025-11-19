@@ -1,5 +1,5 @@
 @{
-    Hostname = "51.137.103.22"
-    Username = "pemoadmin"
-    Subsystem = "powershell"
+    Hostname = "139.59.146.0"
+    Username = "pemo"
+    Port     = 22
 }
