@@ -12,7 +12,7 @@ $Username = "pemo"
 
 # Verbindung mit Passwort-Authentifizierung herstellen
 $S1 = New-PSSession -HostName $IPAdresse -UserName $Username
-Enter-PSSession -Session $S1
+# Enter-PSSession -Session $S1
 
 Invoke-Command -Session $S1 -ScriptBlock { Get-Process }
 Invoke-Command -Session $S1 -ScriptBlock { whoami ; hostname }
