@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2025-11-20" time="11:15:28">
+  <environment user="qskills" nunit-version="2.5.8.0" os-version="10.0.19045" cwd="C:\Users\qskills\Documents\ms112A\TBX1" user-domain="ES6201" machine-name="ES6201" clr-version="9.0.10" platform="Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition3" />
+  <culture-info current-culture="de-DE" current-uiculture="de-DE" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="0.123" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\Users\qskills\Documents\ms112A\TBX1\TB13_GetPasswort.tests.ps1" executed="True" result="Success" success="True" time="0.123" asserts="0" description="C:\Users\qskills\Documents\ms112A\TBX1\TB13_GetPasswort.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Testing Password-Generator" executed="True" result="Success" success="True" time="0.0309" asserts="0" description="Testing Password-Generator">
+            <results>
+              <test-case description="generates a 8 char password" name="Testing Password-Generator.generates a 8 char password" time="0.0034" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="generates a 1 char password" name="Testing Password-Generator.generates a 1 char password" time="0.0032" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="tests if first char is number" name="Testing Password-Generator.tests if first char is number" time="0.0041" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

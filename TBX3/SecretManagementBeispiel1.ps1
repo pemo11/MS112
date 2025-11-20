@@ -10,9 +10,16 @@
 #requires -modules Microsoft.PowerShell.SecretStore
 
 # Schritt 1: Vault registrieren
-Register-SecretVault -Name SecretStore -ModuleName Microsoft.PowerShell.SecretStore -DefaultVault
-# Schritt 2: Kennwort als SecureString einlesen
+try {
+    Register-SecretVault -Name SecretStore -ModuleName Microsoft.PowerShell.SecretStore -DefaultVault 
+    Write-Host "Registriere Vault 'SecretStore'..." -ForegroundColor Green
+} catch {
+    Write-Host "Vault 'SecretStore' ist bereits registriert." -ForegroundColor Yellow
+}
+
+# Schritt 2: SecureString einlesen
 $PwSec = Read-Host -Prompt "Pw?" -AsSecureString
+
 # Schritt 3: Secret abspeichern
 # Beim ersten Mal ist eine Passwort-Eingabe für den Vault erforderlich (demo+123)
 Set-Secret -Name PwSec -Secret $PwSec -Vault SecretStore

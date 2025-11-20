@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "coverage-loose.dtd"[]>
+<coverage lines-valid="64" lines-covered="2" line-rate="0.03125" branches-valid="0" branches-covered="0" branch-rate="1" timestamp="1763636707043" version="0.1">
+  <sources>
+    <source>C:/Users/qskills/Documents/ms112A/TBX1</source>
+  </sources>
+  <packages>
+    <package name="" line-rate="0.03125" branch-rate="0">
+      <classes>
+        <class name="CodeCoverageModule.psm1" filename="CodeCoverageModule.psm1" line-rate="0.666666666666667" branch-rate="1">
+          <methods>
+            <method name="f1" signature="()">
+              <lines>
+                <line number="8" hits="1" />
+              </lines>
+            </method>
+            <method name="f2" signature="()">
+              <lines>
+                <line number="13" hits="1" />
+              </lines>
+            </method>
+            <method name="f3" signature="()">
+              <lines>
+                <line number="18" hits="0" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="1" />
+            <line number="13" hits="1" />
+            <line number="18" hits="0" />
+          </lines>
+        </class>
+        <class name="Get-CPUAssessment.ps1" filename="Get-CPUAssessment.ps1" line-rate="0" branch-rate="1">
+          <methods>
+            <method name="Get-CPUAssessment" signature="()">
+              <lines>
+                <line number="20" hits="0" />
+                <line number="23" hits="0" />
+                <line number="25" hits="0" />
+                <line number="29" hits="0" />
+                <line number="32" hits="0" />
+                <line number="34" hits="0" />
+                <line number="36" hits="0" />
+                <line number="40" hits="0" />
+                <line number="41" hits="0" />
+                <line number="42" hits="0" />
+                <line number="44" hits="0" />
+                <line number="46" hits="0" />
+                <line number="50" hits="0" />
+                <line number="53" hits="0" />
+                <line number="55" hits="0" />
+                <line number="58" hits="0" />
+                <line number="59" hits="0" />
+                <line number="60" hits="0" />
+                <line number="61" hits="0" />
+                <line number="62" hits="0" />
+                <line number="63" hits="0" />
+                <line number="64" hits="0" />
+                <line number="68" hits="0" />
+                <line number="69" hits="0" />
+                <line number="70" hits="0" />
+                <line number="71" hits="0" />
+                <line number="73" hits="0" />
+                <line number="74" hits="0" />
+                <line number="75" hits="0" />
+                <line number="76" hits="0" />
+                <line number="77" hits="0" />
+                <line number="80" hits="0" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="0" />
+            <line number="23" hits="0" />
+            <line number="25" hits="0" />
+            <line number="29" hits="0" />
+            <line number="32" hits="0" />
+            <line number="34" hits="0" />
+            <line number="36" hits="0" />
+            <line number="40" hits="0" />
+            <line number="41" hits="0" />
+            <line number="42" hits="0" />
+            <line number="44" hits="0" />
+            <line number="46" hits="0" />
+            <line number="50" hits="0" />
+            <line number="53" hits="0" />
+            <line number="55" hits="0" />
+            <line number="58" hits="0" />
+            <line number="59" hits="0" />
+            <line number="60" hits="0" />
+            <line number="61" hits="0" />
+            <line number="62" hits="0" />
+            <line number="63" hits="0" />
+            <line number="64" hits="0" />
+            <line number="68" hits="0" />
+            <line number="69" hits="0" />
+            <line number="70" hits="0" />
+            <line number="71" hits="0" />
+            <line number="73" hits="0" />
+            <line number="74" hits="0" />
+            <line number="75" hits="0" />
+            <line number="76" hits="0" />
+            <line number="77" hits="0" />
+            <line number="80" hits="0" />
+            <line number="84" hits="0" />
+          </lines>
+        </class>
+        <class name="TB13_CodeCoverage.ps1" filename="TB13_CodeCoverage.ps1" line-rate="0" branch-rate="1">
+          <methods />
+          <lines>
+            <line number="6" hits="0" />
+            <line number="9" hits="0" />
+            <line number="12" hits="0" />
+            <line number="14" hits="0" />
+            <line number="15" hits="0" />
+            <line number="17" hits="0" />
+          </lines>
+        </class>
+        <class name="TB13_PassswortGenerator.psm1" filename="TB13_PassswortGenerator.psm1" line-rate="0" branch-rate="1">
+          <methods>
+            <method name="Get-Passwort" signature="()">
+              <lines>
+                <line number="9" hits="0" />
+                <line number="11" hits="0" />
+              </lines>
+            </method>
+            <method name="Get-PasswortEx" signature="()">
+              <lines>
+                <line number="18" hits="0" />
+                <line number="19" hits="0" />
+                <line number="21" hits="0" />
+                <line number="25" hits="0" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" />
+            <line number="11" hits="0" />
+            <line number="18" hits="0" />
+            <line number="19" hits="0" />
+            <line number="21" hits="0" />
+            <line number="25" hits="0" />
+          </lines>
+        </class>
+        <class name="TB13_PerformanceMeasure.psm1" filename="TB13_PerformanceMeasure.psm1" line-rate="0" branch-rate="1">
+          <methods>
+            <method name="Invoke-Operation" signature="()">
+              <lines>
+                <line number="32" hits="0" />
+                <line number="33" hits="0" />
+                <line number="34" hits="0" />
+                <line number="37" hits="0" />
+                <line number="38" hits="0" />
+                <line number="39" hits="0" />
+                <line number="40" hits="0" />
+              </lines>
+            </method>
+            <method name="Show-MeasureTime" signature="()">
+              <lines>
+                <line number="20" hits="0" />
+                <line number="21" hits="0" />
+              </lines>
+            </method>
+            <method name="Start-MeasureTime" signature="()">
+              <lines>
+                <line number="7" hits="0" />
+                <line number="8" hits="0" />
+              </lines>
+            </method>
+            <method name="Stop-MeasureTime" signature="()">
+              <lines>
+                <line number="12" hits="0" />
+                <line number="13" hits="0" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="0" />
+            <line number="8" hits="0" />
+            <line number="12" hits="0" />
+            <line number="13" hits="0" />
+            <line number="20" hits="0" />
+            <line number="21" hits="0" />
+            <line number="32" hits="0" />
+            <line number="33" hits="0" />
+            <line number="34" hits="0" />
+            <line number="37" hits="0" />
+            <line number="38" hits="0" />
+            <line number="39" hits="0" />
+            <line number="40" hits="0" />
+          </lines>
+        </class>
+        <class name="TB13_PerformanceXML.ps1" filename="TB13_PerformanceXML.ps1" line-rate="0" branch-rate="1">
+          <methods />
+          <lines>
+            <line number="6" hits="0" />
+            <line number="8" hits="0" />
+            <line number="9" hits="0" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
