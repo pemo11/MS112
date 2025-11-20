@@ -31,6 +31,3 @@ public class LargeFileReader
 # Aus dem C# Code eine DLL erstellen
 Add-Type -TypeDefinition $CSCode -Language CSharp -OutputAssembly "LargeFileReader.dll"
 
-# Pfad zur großen Datei
-$largeFilePath = "C:\Users\qskills\Documents\ms112A\Material\PerfData-Servers.xml"
-

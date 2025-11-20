@@ -4,7 +4,8 @@
 #>
 
 # Große Datei mit der C# Methode einlesen
-Add-Type -Path "./LargeFileReader.dll"
+$dllPath = Join-Path $PSScriptRoot "LargeFileReader.dll"
+Add-Type -Path $dllPath
 
 $largeFilePath = "C:\Users\qskills\Documents\ms112A\Material\PerfData-Servers.xml"
 # $largeFilePath = "R:\PerfData-1000Servers.xml"
