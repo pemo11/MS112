@@ -23,5 +23,7 @@ $logger.Info("Script beendet")
 # Aufräumen
 [NLog.LogManager]::Shutdown()
 
-Write-Host "Log-Datei: C:\Temp\mylog.txt" -ForegroundColor Green
+Write-Host "Log-Datei: C:\Temp\poshlog.txt" -ForegroundColor Green
 Write-Host "Konfiguration geladen aus: $configFile" -ForegroundColor Cyan
+
+Get-Content -Path "C:\Temp\poshlog.txt" | Select-Object -Last 5 | ForEach-Object { Write-Host $_ }
