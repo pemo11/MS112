@@ -21,3 +21,5 @@ $t2 = (Measure-Command -Expression {
 
 Write-Verbose ("*** Where-Object Variante {0:n6}s" -f $t1) -Verbose
 Write-Verbose ("*** Where-Erweiterungsmethode Variante {0:n6}s" -f $t2) -Verbose
+Write-Verbose ("*** Performance Verbesserung: {0:n2}x" -f ($t1 / $t2)) -Verbose
+Write-Verbose "*** Die Pipeline ist einfach langsamer!" -Verbose
